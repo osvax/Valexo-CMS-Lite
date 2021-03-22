@@ -1,4 +1,6 @@
 # Valexo CMS Lite
+![Image alt](https://osvax.github.io/!__gitgub-images/valexo-cms-lite.png)
+
 ![GitHub release](https://img.shields.io/github/v/release/osvax/Valexo-CMS-Lite)
 ![GitHub](https://img.shields.io/github/license/osvax/Valexo-CMS-Lite)
 ![GitHub forks](https://img.shields.io/github/forks/osvax/Valexo-CMS-Lite?style=social)
