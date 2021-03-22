@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Ajax;
 
-use App\Http\Controllers\VA_Controller;
+use App\Http\Controllers\Controller;
 use App\Models\Statistic;
 use App\Models\SummaryStatistic;
 use Carbon\Carbon;
@@ -10,7 +10,7 @@ use Eseath\SxGeo\SxGeo;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
-class StatisticsController extends VA_Controller
+class AjaxStatistic extends Controller
 {
     /**
      * @var string
@@ -168,10 +168,11 @@ class StatisticsController extends VA_Controller
 
     public function setStatistic()
     {
+
         if ( config( 'valexo.ststistic' ) === true ) {
 
             $stat = new Statistic();
-            $stat->created_at = Carbon::now('Europe/Moscow')->format('d-m-Y');
+            $stat->created_at = Carbon::today()->format( "d-m-Y" );
             $stat->ip = $this->getIp();
             $stat->city = $this->getCity($this->getIp());
             $stat->region = $this->getRegion( $this->getIp() );
@@ -191,15 +192,20 @@ class StatisticsController extends VA_Controller
             $stat->http_referer = $this->getHttpHost();
             $stat->save();
 
-            $stat = DB::table( 'statistics' )->where( 'created_at', '=', Carbon::now('Europe/Moscow')->format('d-m-Y') )->get();
+            $stat = DB::table( 'statistics' )->where( 'created_at', '=', Carbon::today()->format( "d-m-Y" ) )->get();
             $v=0;
             $h=0;
             foreach ( $stat as $s ) {
                 $v+=$s->visitor;
                 $h+=$s->host;
             }
-
-            $query = DB::table('summary_statistic')->where('today', '=', Carbon::now('Europe/Moscow')->format('d-m-Y'))->exists();
+	        /**
+	         * Если в суммарной статистике нет записей
+	         * мы создадим первую и удалим все старые записи
+	         * из текущей если же запись уже есть
+	         * мы просто обновим данные и все)
+	         */
+            $query = DB::table('summary_statistic')->where('today', '=', Carbon::today()->format( "d-m-Y" ))->exists();
 
             if ($query == false) {
                 $summ = new SummaryStatistic();
@@ -207,11 +213,12 @@ class StatisticsController extends VA_Controller
                 $summ->visitors = $v;
                 $summ->hosts = $h;
                 $summ->save();
+	            DB::table( 'statistics' )->where( 'created_at', '<', Carbon::today()->format( "d-m-Y" ) )->delete();
             }else{
                 DB::table('summary_statistic')
-                  ->where('today', Carbon::now('Europe/Moscow')->format( 'd-m-Y' ))
+                  ->where('today', Carbon::today()->format( "d-m-Y" ))
                   ->update([
-                      'today' => Carbon::now('Europe/Moscow')->format( 'd-m-Y' ),
+                      'today' =>Carbon::today()->format( "d-m-Y" ),
                       'visitors' => $v,
                       'hosts' => $h
                   ]);

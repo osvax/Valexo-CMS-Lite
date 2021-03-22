@@ -11,7 +11,7 @@
  *
  */
 
-namespace App\Http\Controllers\Auth;
+namespace App\Http\Controllers\Dashboard;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\PageRequest;
@@ -19,7 +19,7 @@ use App\Models\Page;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
-class PagesController extends Controller
+class VA_Page extends Controller
 {
 
     /**
@@ -31,7 +31,7 @@ class PagesController extends Controller
     {
 
 
-        return view("pages",[
+        return view("page.main",[
             "dayrus" => $this->getDayRus(),
             "daterus" => $this->getDateRus(),
             "pages" => DB::table( 'pages' )->select( '*' )->orderBy( 'order' )->get(),
@@ -46,7 +46,7 @@ class PagesController extends Controller
      */
     public function create()
     {
-        return view("create",[
+        return view("page.create",[
             "dayrus" => $this->getDayRus(),
             "daterus" => $this->getDateRus(),
             "pages" => Page::all()
@@ -109,7 +109,7 @@ class PagesController extends Controller
      */
     public function show(Page $id)
     {
-        return view("edit",[
+        return view("page.edit",[
             "dayrus" => $this->getDayRus(),
             "daterus" => $this->getDateRus(),
             "data" => $id->toArray()

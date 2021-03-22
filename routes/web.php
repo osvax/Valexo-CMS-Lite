@@ -11,16 +11,12 @@
  *
  */
 
-use Illuminate\Foundation\Auth\EmailVerificationRequest;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\App;
-use Illuminate\Support\Facades\Route;
 
 
-use App\Http\Controllers\ArticlesController;
-use App\Http\Controllers\PagesController;
-use App\Http\Controllers\VAController;
+
+use App\Http\Controllers\VA_Article;
+use App\Http\Controllers\VA_Page;
+use App\Http\Controllers\Valexo;
 
 /*
 |--------------------------------------------------------------------------
@@ -36,21 +32,22 @@ use App\Http\Controllers\VAController;
 require __DIR__.'/auth.php';
 require __DIR__.'/ajax.php';
 
-
-
-
-
-//Route::get('/', [VAController::class, 'index'])->name('va');
-Route::get('/', [PagesController::class , 'index'])->name('index.controller');
-Route::get('/articles', [ArticlesController::class , 'index'])->name('articles.controller');
-Route::get('/{page}', [PagesController::class , 'index'])->name('pages.controller');
-
-
-
-
-
 /*
-Route::get('/home', function() {
-    return view('home');
-})->name('home')->middleware('auth');
+Route::get('/', function() {
+    return view('main');
+})->name('index.controller')->middleware('auth');
+
 */
+
+Route::get('/', [Valexo::class, 'index'])->name('index.controller');
+//Route::get('/', [VA_Page::class , 'index'])->name('index.controller');
+Route::get('/articles', [VA_Article::class , 'index'])->name('articles.controller');
+Route::get('/{page}', [VA_Page::class , 'index'])->name('pages.controller');
+
+
+
+
+
+
+
+

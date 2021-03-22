@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace App\Http\Controllers;
 
-use App\Http\Controllers\Controller;
+use App\Models\Callback;
 use Illuminate\Http\Request;
 
-class CallbackController extends Controller
+class VA_Callback extends Valexo
 {
     /**
      * Display a listing of the resource.
@@ -41,10 +41,10 @@ class CallbackController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param  \App\Models\Callback  $callback
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(Callback $callback)
     {
         //
     }
@@ -52,10 +52,10 @@ class CallbackController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int  $id
+     * @param  \App\Models\Callback  $callback
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(Callback $callback)
     {
         //
     }
@@ -64,10 +64,10 @@ class CallbackController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
+     * @param  \App\Models\Callback  $callback
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, Callback $callback)
     {
         //
     }
@@ -75,10 +75,10 @@ class CallbackController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param  \App\Models\Callback  $callback
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Callback $callback)
     {
         //
     }

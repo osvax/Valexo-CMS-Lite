@@ -5,7 +5,7 @@
             <div class="dd3-content"> {{ $subcategory['id'] }}- {{ $subcategory['name'] }} </div>
         </li>
         @if(count($subcategory->subcategory))
-            @include('subcat',['subcategories' => $subcategory->subcategory])
+            @include('category.subcat',['subcategories' => $subcategory->subcategory])
         @endif
     </ol>
 @endforeach

@@ -1,22 +1,11 @@
 <?php
-/*
- * @project   Автор проекта - Valexo CMS Lite
- * @author    Valentin Alexo
- * @email     osvax@yandex.com
- * @phone    +7(909)057-22-69
- *
- * Создание сайтов и интернет магазинов, посадочных страниц
- * Разработка проектов на Laravel. SEO и SMM продвижение.
- * Copyright (C) 2020 - 2021, Inc - Все права защищены
- *
- */
 
-namespace App\Http\Controllers\Auth;
+namespace App\Http\Controllers\Dashboard;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class ArticlesController extends Controller
+class VA_Callback extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -25,10 +14,7 @@ class ArticlesController extends Controller
      */
     public function index()
     {
-        return view("articles",[
-            "dayrus" => $this->getDayRus(),
-            "daterus" => $this->getDateRus(),
-        ]);
+        //
     }
 
     /**

@@ -3,10 +3,9 @@
 namespace App\Http\Controllers\Ajax;
 
 use App\Http\Controllers\Controller;
-use App\Http\Controllers\VA_Controller;
 use Illuminate\Http\Request;
 
-class TransliteCobtroller extends VA_Controller
+class AjaxTranslite extends Controller
 {
     /**
      * @param $name

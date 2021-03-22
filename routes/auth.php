@@ -10,14 +10,19 @@
  * Copyright (C) 2020 - 2021, Inc - Все права защищены
  *
  */
+ 
+use Illuminate\Foundation\Auth\EmailVerificationRequest;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\Route; 
 
-use App\Http\Controllers\Auth\DashbordController;
-use App\Http\Controllers\Auth\CategoriesController;
-use App\Http\Controllers\Auth\ArticlesController;
-use App\Http\Controllers\Auth\SettingsController;
-use App\Http\Controllers\Auth\PagesController;
-use App\Http\Controllers\Auth\StatisticsController;
-use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Dashboard\VA_Dashboard;
+use App\Http\Controllers\Dashboard\VA_Category;
+use App\Http\Controllers\Dashboard\VA_Article;
+use App\Http\Controllers\Dashboard\VA_Setting;
+use App\Http\Controllers\Dashboard\VA_Page;
+use App\Http\Controllers\Dashboard\VA_Statistic;
 
 /**
  * 'elfinder.ckeditor'
@@ -38,25 +43,25 @@ Route::get('/email/verify/{id}/{hash}', function (EmailVerificationRequest $requ
 
 
 Route::group(['middleware' => ['role:admin']], function () {
-    Route::get('/admin', [DashbordController::class, 'index'])->middleware(['auth'])->name('admin.dashboard.index');
-    Route::get('/admin/category',  [CategoriesController::class, 'index'])->middleware(['auth'])->name('admin.category.index');
+    Route::get('/admin', [VA_Dashboard::class, 'index'])->middleware(['auth'])->name('admin.dashboard.index');
+    Route::get('/admin/category',  [VA_Category::class, 'index'])->middleware(['auth'])->name('admin.category.index');
 
 
     /**
      * Роуты для создания и редактирования страниц
      */
-    Route::get('/admin/pages',  [PagesController::class, 'index'])->name('admin.pages.index');
-    Route::post('/admin/pages/store',  [PagesController::class, 'store'])->name('admin.pages.store');
-    Route::get('/admin/pages/create',  [PagesController::class, 'create'])->name('admin.pages.create');
-    Route::get('/admin/pages/delete/{page}',  [PagesController::class, 'destroy'])->name('admin.pages.destroy');
-    Route::get('/admin/pages/show/{id}',  [PagesController::class, 'show'])->name('admin.pages.show');
-    Route::put('/admin/pages/update/{id}',  [PagesController::class, 'update'])->name('admin.pages.update');
+    Route::get('/admin/pages',  [VA_Page::class, 'index'])->name('admin.pages.index');
+    Route::post('/admin/pages/store',  [VA_Page::class, 'store'])->name('admin.pages.store');
+    Route::get('/admin/pages/create',  [VA_Page::class, 'create'])->name('admin.pages.create');
+    Route::get('/admin/pages/delete/{page}',  [VA_Page::class, 'destroy'])->name('admin.pages.destroy');
+    Route::get('/admin/pages/show/{id}',  [VA_Page::class, 'show'])->name('admin.pages.show');
+    Route::put('/admin/pages/update/{id}',  [VA_Page::class, 'update'])->name('admin.pages.update');
 
 
 
-    Route::get('/admin/statistic',  [StatisticsController::class, 'index'])->middleware(['auth'])->name('admin.statistic.index');
-    Route::get('/admin/articles',  [ArticlesController::class, 'index'])->middleware(['auth'])->name('admin.articles.index');
-    Route::get('/admin/settings',  [SettingsController::class, 'index'])->middleware(['auth'])->name('admin.settings.index');
+    Route::get('/admin/statistic',  [VA_Statistic::class, 'index'])->middleware(['auth'])->name('admin.statistic.index');
+    Route::get('/admin/articles',  [VA_Article::class, 'index'])->middleware(['auth'])->name('admin.articles.index');
+    Route::get('/admin/settings',  [VA_Setting::class, 'index'])->middleware(['auth'])->name('admin.settings.index');
 
 });
 

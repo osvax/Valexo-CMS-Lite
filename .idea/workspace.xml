@@ -2,113 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0aef3741-ae76-484a-8d55-e6d7edf6b198" name="Default Changelist" comment="Valexo CMS Lite start">
-      <change afterPath="$PROJECT_DIR$/.idea/php-test-framework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/PageRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/upload/.tmb/l1_TXkgU25hcHNob3RfMy5qcGc1616409178.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/upload/.tmb/l1_cGxhbmV0LWRlc3RydWN0aW9uLXNjaS1maS5qcGc1616409178.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/access/fonts/fontawesome/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/access/fonts/fontawesome/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/access/fonts/fontawesome/scss/_brands.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/access/fonts/fontawesome/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/access/fonts/fontawesome/scss/_duotone.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/access/fonts/fontawesome/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/access/fonts/fontawesome/scss/_fontawesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/access/fonts/fontawesome/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/access/fonts/fontawesome/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/access/fonts/fontawesome/scss/_light.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/access/fonts/fontawesome/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/access/fonts/fontawesome/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/access/fonts/fontawesome/scss/_regular.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/access/fonts/fontawesome/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/access/fonts/fontawesome/scss/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/access/fonts/fontawesome/scss/_shims.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/access/fonts/fontawesome/scss/_solid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/access/fonts/fontawesome/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/access/fonts/fontawesome/scss/_v4-shims.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/access/fonts/fontawesome/scss/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/article/main.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/category/main.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/category/subcat.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/main.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/settings/main.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/statistic/main.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Ajax/AjaxStatistic.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Ajax/AjaxTranslite.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/VA_Article.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/VA_Callback.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/VA_Category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/VA_Dashboard.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/VA_Page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/VA_Post.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/VA_Setting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/VA_Statistic.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/VA_Article.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/VA_Callback.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/VA_Page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Valexo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/default/layouts/footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/default/layouts/header.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/default/main.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/category.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/pages.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pages.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/PagesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/PagesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/StorePages.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/logging.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/logging.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/access/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/access/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/access/fonts/fa-brands-400.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/access/fonts/fa-brands-400.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/access/fonts/fa-brands-400.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/access/fonts/fa-brands-400.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/access/fonts/fa-brands-400.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/access/fonts/fa-brands-400.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/access/fonts/fa-brands-400.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/access/fonts/fa-brands-400.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/access/fonts/fa-brands-400.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/access/fonts/fa-brands-400.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/access/fonts/fa-duotone-900.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/access/fonts/fa-duotone-900.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/access/fonts/fa-duotone-900.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/access/fonts/fa-duotone-900.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/access/fonts/fa-duotone-900.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/access/fonts/fa-duotone-900.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/access/fonts/fa-duotone-900.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/access/fonts/fa-duotone-900.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/access/fonts/fa-duotone-900.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/access/fonts/fa-duotone-900.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/access/fonts/fa-light-300.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/access/fonts/fa-light-300.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/access/fonts/fa-light-300.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/access/fonts/fa-light-300.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/access/fonts/fa-light-300.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/access/fonts/fa-light-300.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/access/fonts/fa-light-300.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/access/fonts/fa-light-300.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/access/fonts/fa-light-300.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/access/fonts/fa-light-300.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/access/fonts/fa-regular-400.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/access/fonts/fa-regular-400.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/access/fonts/fa-regular-400.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/access/fonts/fa-regular-400.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/access/fonts/fa-regular-400.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/access/fonts/fa-regular-400.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/access/fonts/fa-regular-400.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/access/fonts/fa-regular-400.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/access/fonts/fa-regular-400.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/access/fonts/fa-regular-400.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/access/fonts/fa-solid-900.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/access/fonts/fa-solid-900.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/access/fonts/fa-solid-900.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/access/fonts/fa-solid-900.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/access/fonts/fa-solid-900.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/access/fonts/fa-solid-900.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/access/fonts/fa-solid-900.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/access/fonts/fa-solid-900.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/access/fonts/fa-solid-900.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/access/fonts/fa-solid-900.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/access/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/access/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/fonts/fontawesome/css/all.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/fonts/fontawesome/css/all.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/fonts/fontawesome/css/brands.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/fonts/fontawesome/css/brands.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/fonts/fontawesome/css/duotone.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/fonts/fontawesome/css/duotone.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/fonts/fontawesome/css/fontawesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/fonts/fontawesome/css/fontawesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/fonts/fontawesome/css/light.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/fonts/fontawesome/css/light.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/fonts/fontawesome/css/regular.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/fonts/fontawesome/css/regular.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/fonts/fontawesome/css/solid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/fonts/fontawesome/css/solid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/fonts/fontawesome/css/svg-with-js.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/fonts/fontawesome/css/svg-with-js.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/fonts/fontawesome/css/v4-shims.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/fonts/fontawesome/css/v4-shims.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-brands-400.eot" beforeDir="false" afterPath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-brands-400.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-brands-400.svg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-brands-400.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-brands-400.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-brands-400.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-brands-400.woff" beforeDir="false" afterPath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-brands-400.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-brands-400.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-brands-400.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-duotone-900.eot" beforeDir="false" afterPath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-duotone-900.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-duotone-900.svg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-duotone-900.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-duotone-900.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-duotone-900.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-duotone-900.woff" beforeDir="false" afterPath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-duotone-900.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-duotone-900.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-duotone-900.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-light-300.eot" beforeDir="false" afterPath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-light-300.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-light-300.svg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-light-300.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-light-300.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-light-300.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-light-300.woff" beforeDir="false" afterPath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-light-300.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-light-300.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-light-300.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-regular-400.eot" beforeDir="false" afterPath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-regular-400.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-regular-400.svg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-regular-400.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-regular-400.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-regular-400.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-regular-400.woff" beforeDir="false" afterPath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-regular-400.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-regular-400.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-regular-400.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-solid-900.eot" beforeDir="false" afterPath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-solid-900.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-solid-900.svg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-solid-900.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-solid-900.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-solid-900.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-solid-900.woff" beforeDir="false" afterPath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-solid-900.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-solid-900.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/resources/access/fonts/fontawesome/webfonts/fa-solid-900.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/js/ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/access/js/ajax.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/sass/_default.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/access/sass/_default.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/sass/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/access/sass/_fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/articles.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/category.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/page/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/page/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/home.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/pages.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/page/main.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/settings.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/stat.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/subcat.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Ajax/StatisticsController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Ajax/TransliteCobtroller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ArticlesController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ArticlesController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/CallbackController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/CategoriesController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/DashbordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/PagesController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/PostsController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/SettingsController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/StatisticsController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CallbackController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/VA_Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/ajax.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/ajax.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/routes.json" beforeDir="false" afterPath="$PROJECT_DIR$/routes/routes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/default/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/default/layouts/app.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -338,6 +285,7 @@
       <recent name="E:\OSPanel\DEVELOPMENT\Y2\lite\views" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\OSPanel\DEVELOPMENT\VALEXO\lite\admin\page" />
       <recent name="E:\OSPanel\DEVELOPMENT\VALEXO\lite\routes" />
       <recent name="E:\OSPanel\DEVELOPMENT\LP\laravel\access\components" />
     </key>
@@ -484,6 +432,8 @@
       <workItem from="1616408549105" duration="312000" />
       <workItem from="1616411249809" duration="27000" />
       <workItem from="1616411285765" duration="8242000" />
+      <workItem from="1616423232448" duration="55000" />
+      <workItem from="1616439259706" duration="6146000" />
     </task>
     <task id="LOCAL-00001" summary="Valexo CMS Lite start">
       <created>1616408394624</created>

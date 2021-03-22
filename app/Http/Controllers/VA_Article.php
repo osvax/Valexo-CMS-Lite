@@ -14,32 +14,24 @@
 namespace App\Http\Controllers;
 
 use App\Models\Article;
-use App\Models\Page;
 use Illuminate\Http\Request;
 
-class PagesController extends VA_Controller
+class VA_Article extends Valexo
 {
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index($page='')
+    public function index()
     {
-        if ( empty( $page ) ) {
-            $page = 'index';
-        }
-        $pagedata = Page::all()->where('uri', '=', $page)->first();
-        $menu = Page::all();
+        session(['user_name' => 'Valentin Alexo']);
+
         $articles = Article::join('users', 'author_id', '=', 'users.id')
-                           ->orderBy('articles.id', 'asc')
+                           ->orderBy('articles.created_at', 'desc')
                            ->paginate(4);
 
-        if ( is_null( $pagedata ) ) {
-            abort(404);
-        }
-
-        return view( $this->getTheme().'.page', compact('pagedata','menu', 'articles'));
+        return view( $this->getTheme().'.articles' , compact('articles'));
     }
 
     /**

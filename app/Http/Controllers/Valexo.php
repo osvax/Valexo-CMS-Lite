@@ -10,14 +10,14 @@
  * Copyright (C) 2020 - 2021, Inc - Все права защищены
  *
  */
-
 namespace App\Http\Controllers;
 
-use App\Models\Article;
 use Illuminate\Http\Request;
 
-class ArticlesController extends VA_Controller
+class Valexo extends Controller
 {
+
+
     /**
      * Display a listing of the resource.
      *
@@ -25,13 +25,13 @@ class ArticlesController extends VA_Controller
      */
     public function index()
     {
-        session(['user_name' => 'Valentin Alexo']);
 
-        $articles = Article::join('users', 'author_id', '=', 'users.id')
-                           ->orderBy('articles.created_at', 'desc')
-                           ->paginate(4);
 
-        return view( $this->getTheme().'.articles' , compact('articles'));
+        return view( $this->getTheme().'.main',
+            $this->getSettings(),
+            ["my_name" => "Valentin"]
+
+        );
     }
 
     /**

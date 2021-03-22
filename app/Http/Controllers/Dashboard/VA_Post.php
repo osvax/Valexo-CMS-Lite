@@ -11,12 +11,12 @@
  *
  */
 
-namespace App\Http\Controllers\Auth;
+namespace App\Http\Controllers\Dashboard;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class SettingsController extends Controller
+class VA_Post extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -25,10 +25,7 @@ class SettingsController extends Controller
      */
     public function index()
     {
-        return view("settings",[
-            "dayrus" => $this->getDayRus(),
-            "daterus" => $this->getDateRus(),
-        ]);
+        //
     }
 
     /**

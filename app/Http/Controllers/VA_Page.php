@@ -1,63 +1,45 @@
 <?php
+/*
+ * @project   Автор проекта - Valexo CMS Lite
+ * @author    Valentin Alexo
+ * @email     osvax@yandex.com
+ * @phone    +7(909)057-22-69
+ *
+ * Создание сайтов и интернет магазинов, посадочных страниц
+ * Разработка проектов на Laravel. SEO и SMM продвижение.
+ * Copyright (C) 2020 - 2021, Inc - Все права защищены
+ *
+ */
 
-namespace App\Http\Controllers\Auth;
+namespace App\Http\Controllers;
 
-use App\Http\Controllers\Controller;
+use App\Models\Article;
 use App\Models\Page;
-use App\Models\Statistic;
-use App\Models\SummaryStatistic;
-use Carbon\Carbon;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\DB;
 
-class StatisticsController extends Controller
+class VA_Page extends Valexo
 {
-
-    /**
-     * @var
-     */
-    protected $visitors;
-    /**
-     * @var
-     */
-    protected $hosts;
-
-
-    protected $today;
-
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index($page='')
     {
+        if ( empty( $page ) ) {
+            $page = 'index';
+        }
+        $pagedata = Page::all()->where('uri', '=', $page)->first();
+        $menu = Page::all();
+        $articles = Article::join('users', 'author_id', '=', 'users.id')
+                           ->orderBy('articles.id', 'asc')
+                           ->paginate(4);
 
-
-        $todaysAray = DB::table( 'summary_statistic' )->get();
-        $views = DB::table( 'summary_statistic' )->where('today','=',Carbon::now('Europe/Moscow')->format('d-m-Y'))->get();
-
-        foreach ($views as $v) {
-
-            $this->today = $v->today;
-            $this->visitors = $v->visitors;
-            $this->hosts = $v->hosts;
+        if ( is_null( $pagedata ) ) {
+            abort(404);
         }
 
-
-        return view("stat",[
-            "dayrus" => $this->getDayRus(),
-            "daterus" => $this->getDateRus(),
-            "pages" => Page::all(),
-            'todaysAray' => $todaysAray,
-            'visitors' => $this->visitors,
-            'hosts' => $this->hosts,
-        ]);
-
-
-
-
-
+        return view( $this->getTheme().'.main', compact('pagedata','menu', 'articles'));
     }
 
     /**

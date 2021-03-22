@@ -1,24 +1,30 @@
 <?php
-/*
- * @project   Автор проекта - Valexo CMS Lite
- * @author    Valentin Alexo
- * @email     osvax@yandex.com
- * @phone    +7(909)057-22-69
- *
- * Создание сайтов и интернет магазинов, посадочных страниц
- * Разработка проектов на Laravel. SEO и SMM продвижение.
- * Copyright (C) 2020 - 2021, Inc - Все права защищены
- *
- */
 
-namespace App\Http\Controllers\Auth;
+namespace App\Http\Controllers\Dashboard;
 
 use App\Http\Controllers\Controller;
-use App\Models\Category;
+use App\Models\Page;
+use App\Models\Statistic;
+use App\Models\SummaryStatistic;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
-class CategoriesController extends Controller
+class VA_Statistic extends Controller
 {
+
+    /**
+     * @var
+     */
+    protected $visitors;
+    /**
+     * @var
+     */
+    protected $hosts;
+
+
+    protected $today;
+
     /**
      * Display a listing of the resource.
      *
@@ -27,38 +33,32 @@ class CategoriesController extends Controller
     public function index()
     {
 
-        $arrayAllParentCategory = Category::where('parent_id',0)->get();
-        $query = Category::where('parent_id',0)->count();
+
+        $todaysAray = DB::table( 'summary_statistic' )->get();
+        $views = DB::table( 'summary_statistic' )->where('today','=',Carbon::now('Europe/Moscow')->format('d-m-Y'))->get();
+
+        foreach ($views as $v) {
+
+            $this->today = $v->today;
+            $this->visitors = $v->visitors;
+            $this->hosts = $v->hosts;
+        }
 
 
-
-
-
-
-     //   debug( $arrayAllParentCategory);
-        return view( 'category',[
+        return view("statistic.main",[
             "dayrus" => $this->getDayRus(),
             "daterus" => $this->getDateRus(),
-        ], compact('arrayAllParentCategory')
-        );
-    }
+            "pages" => Page::all(),
+            'todaysAray' => $todaysAray,
+            'visitors' => $this->visitors,
+            'hosts' => $this->hosts,
+        ]);
 
-  /*  public function menu_showNested($parentID) {
-        $numRows = Category::where('parent_id',$parentID)->get();
 
-        if ($numRows > 0) {
-            echo "\n";
-            echo "<ol class=\"dd-list\">\n";
-            while($row = mysql_fetch_array($result)) {
-                echo "\n";
-                echo "<li class="dd-item" data-id="{$row[" id']}'="">\n";
-                    echo "<div class="dd-handle">{$row['id']}: {$row['name']}</div>\n";
-                    menu_showNested($row['id']);
-                echo "</li>\n";
-            }
-        echo "</ol>\n";
+
+
+
     }
-    }*/
 
     /**
      * Show the form for creating a new resource.

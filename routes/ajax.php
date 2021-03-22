@@ -11,26 +11,28 @@
  *
  */
 
-use App\Http\Controllers\Auth\PagesController;
+use App\Http\Controllers\Dashboard\VA_Page;
+use App\Http\Controllers\Ajax\AjaxStatistic;
+use App\Http\Controllers\Ajax\AjaxTranslite;
 
 Route::get('/ajax/ftranslite/{text}', function ($text) {
-    $obj = new App\Http\Controllers\Ajax\TransliteCobtroller();
+    $obj = new AjaxTranslite();
     echo $obj->ftranslite( $text );
 })->name('ftranslite');
 
 Route::get('/ajax/statistic/', function () {
-    $obj = new \App\Http\Controllers\Ajax\StatisticsController();
+    $obj = new AjaxStatistic();
     echo $obj->setStatistic();
 })->name('setstatic');
 
 Route::get('/ajax/onlinecount/', function () {
-    $obj = new \App\Http\Controllers\Ajax\StatisticsController();
+    $obj = new AjaxStatistic();
     echo $obj->onlineCount();
 })->name('onlinecount');
 
 
 Route::get('/ajax/editindexpage/', function () {
-    $obj = new \App\Http\Controllers\Auth\PagesController();
+    $obj = new VA_Page();
     $obj->editIndexPage();
 })->name('editindexpage');
 

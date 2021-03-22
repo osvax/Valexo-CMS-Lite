@@ -11,14 +11,13 @@
  *
  */
 
-namespace App\Http\Controllers\Auth;
+namespace App\Http\Controllers\Dashboard;
 
 use App\Http\Controllers\Controller;
-use Carbon\Carbon;
+use App\Models\Category;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\DB;
 
-class DashbordController extends Controller
+class VA_Category extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -28,13 +27,38 @@ class DashbordController extends Controller
     public function index()
     {
 
+        $arrayAllParentCategory = Category::where('parent_id',0)->get();
+        $query = Category::where('parent_id',0)->count();
 
-        return view( 'home',[
+
+
+
+
+
+     //   debug( $arrayAllParentCategory);
+        return view( 'category.main',[
             "dayrus" => $this->getDayRus(),
             "daterus" => $this->getDateRus(),
-        ]);
+        ], compact('arrayAllParentCategory')
+        );
     }
 
+  /*  public function menu_showNested($parentID) {
+        $numRows = Category::where('parent_id',$parentID)->get();
+
+        if ($numRows > 0) {
+            echo "\n";
+            echo "<ol class=\"dd-list\">\n";
+            while($row = mysql_fetch_array($result)) {
+                echo "\n";
+                echo "<li class="dd-item" data-id="{$row[" id']}'="">\n";
+                    echo "<div class="dd-handle">{$row['id']}: {$row['name']}</div>\n";
+                    menu_showNested($row['id']);
+                echo "</li>\n";
+            }
+        echo "</ol>\n";
+    }
+    }*/
 
     /**
      * Show the form for creating a new resource.

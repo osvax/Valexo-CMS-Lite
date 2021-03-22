@@ -140,7 +140,7 @@
                                             <div class="dd-handle dd3-handle"></div>
                                             <div class="dd3-content"> {{ $cat['id'] }}- {{ $cat['name'] }} </div>
                                             @if(count($cat->subcategory))
-                                               @include('subcat',['subcategories' => $cat->subcategory])
+                                               @include('category.subcat',['subcategories' => $cat->subcategory])
                                             @endif
                                         </li>
                                 @endforeach

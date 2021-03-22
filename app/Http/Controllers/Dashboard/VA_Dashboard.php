@@ -10,14 +10,16 @@
  * Copyright (C) 2020 - 2021, Inc - Все права защищены
  *
  */
-namespace App\Http\Controllers;
 
+namespace App\Http\Controllers\Dashboard;
+
+use App\Http\Controllers\Controller;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
-class VA_Controller extends Controller
+class VA_Dashboard extends Controller
 {
-
-
     /**
      * Display a listing of the resource.
      *
@@ -27,12 +29,12 @@ class VA_Controller extends Controller
     {
 
 
-        return view( $this->getTheme().'.welcome',
-            $this->getSettings(),
-            ["my_name" => "Valentin"]
-
-        );
+        return view( 'main',[
+            "dayrus" => $this->getDayRus(),
+            "daterus" => $this->getDateRus(),
+        ]);
     }
+
 
     /**
      * Show the form for creating a new resource.

@@ -11,12 +11,12 @@
  *
  */
 
-namespace App\Http\Controllers\Auth;
+namespace App\Http\Controllers\Dashboard;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class PostsController extends Controller
+class VA_Article extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -25,7 +25,10 @@ class PostsController extends Controller
      */
     public function index()
     {
-        //
+        return view("article.main",[
+            "dayrus" => $this->getDayRus(),
+            "daterus" => $this->getDateRus(),
+        ]);
     }
 
     /**
