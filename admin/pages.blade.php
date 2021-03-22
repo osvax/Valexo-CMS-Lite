@@ -25,7 +25,7 @@
 	<div class="col-sm-8">
 		<div class="card">
 			<div class="card-body ">
-				<div class="card-header"><i class="fal fa-info-circle" data-toggle="tooltip" data-html="true" title="<em>Всплывающая подсказка</em> <u>с</u> <b>HTML</b>"></i> {{ __('messages.pages') }}</div>
+				<div class="card-header"><i class="fad fa-info-circle" data-toggle="tooltip" data-html="true" title="<em>Всплывающая подсказка</em> <u>с</u> <b>HTML</b>"></i> {{ __('messages.pages') }}</div>
                     <div class="card-body">
                         <div class="myadmin-qq qq">
                             <ol class="qq-list">
@@ -33,10 +33,10 @@
                                 <li class="qq-item" ata-id="{{ $page->id }}">
                                     <div class="qq-handle">{{ $page->name}}
 										<div class="qq-handle_icon">
-                                            <a class="va_fa-pencil-alt" href="{{ route('admin.pages.show', $page->id) }}" title="Редактировать страницу {{ $page->name }}"><i id="{{ $page->id }}" class="far fa-edit va-edit-icon"></i></a>
-                                            &#8942; <i ata-toggle="modal" ata-target="#modal-sm" id="{{ $page->id }}" class="far pl-2 deletePage va-delete-icon  fa-trash-alt"></i>
+                                            <a class="va_fa-pencil-alt" href="{{ route('admin.pages.show', $page->id) }}" title="Редактировать страницу {{ $page->name }}"><i id="{{ $page->id }}" class="fas fa-edit va-edit-icon"></i></a>
+                                            &#8942; <i ata-toggle="modal" ata-target="#modal-sm" id="{{ $page->id }}" class="fas pl-2 deletePage va-delete-icon  fa-trash-alt"></i>
 										<div class="custom-control custom-switch  custom-switch-off-success custom-switch-on-danger">
-                                           <input type="checkbox" class="custom-control-input" id="customSwitch{{ $page->id }}">
+                                           <input type="checkbox" checked class="custom-control-input" id="customSwitch{{ $page->id }}">
                                            <label class="custom-control-label" for="customSwitch{{ $page->id }}"></label>
                                        </div>
 										</div>
@@ -60,13 +60,13 @@
 	<div class="col-sm-4 ">
 		<div class="card">
 			<div class="card-body ">
-				<div class="card-header"><i class="fal between fa-info-circle" data-toggle="tooltip" data-html="true" title="<em>Перетащите для изменения порядкового расположения страниц в меню.</em> "></i> {{ __('messages.reorder') }} </div>
+				<div class="card-header"><i class="fad between fa-info-circle" data-toggle="tooltip" data-html="true" title="<em>Перетащите для изменения порядкового расположения страниц в меню.</em> "></i> {{ __('messages.reorder') }} </div>
                     <div class="card-body">
                         <div class="myadmin-dd-empty dd" id="nestable">
                             <ol class="dd-list">
 							@foreach($pages as $page)
                                         <li class="dd-item dd3-item" data-id="{{ $page->id }}">
-                                            <div class="dd-handle dd3-handle"></div>
+                                           <div class="dd-handle dd3-handle"></div>
                                             <div class="dd3-content">  {{ $page->name }} </div>
                                         </li>
 							@endforeach
@@ -271,6 +271,29 @@
 
 
                 updateOutput($('#nestable').data('output', $('#nestable-output')));
+
+                $('#nestable').nestable().on('change', function(e) {
+                    let list   = e.length ? e : $(e.target);
+                    let nestableAjax = JSON.stringify(list.nestable('serialize'))
+
+                    $.ajax({
+                        headers: {
+                            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                        },
+                        type: "GET",
+                        url: "{{ route('editindexpage') }}",
+                        dataType: "html",
+                        data: {page:nestableAjax},
+                        error: function (data) {
+                            toastr.error("Ошибка");
+                        },
+                        success: function (data) {
+                            toastr.success("Сортировка изменена");
+                            setInterval(window.location.reload(),3000)
+                        }
+                    });
+
+                });
 
             });
         </script>

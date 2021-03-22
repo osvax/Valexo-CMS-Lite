@@ -58,33 +58,6 @@ setInterval(onlineCount,3000)
 
 
 
-
-    $('#nestable').nestable().on('change', function(e) {
-        let list   = e.length ? e : $(e.target);
-        let nestableAjax = JSON.stringify(list.nestable('serialize'))
-
-                $.ajax({
-                    headers: {
-                        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-                    },
-                    type: "GET",
-                    url: route('editindexpage'),
-                    dataType: "html",
-                    data: {page:nestableAjax},
-                    error: function (data) {
-                        toastr.error("Ошибка");
-                    },
-                    success: function (data) {
-                        toastr.success("Сортировка изменена");
-                        setInterval(window.location.reload(),3000)
-                    }
-                });
-
-
-    });
-
-
-
     /**
      * Добавление статьи
      */
@@ -96,28 +69,27 @@ setInterval(onlineCount,3000)
             dataType: "json",
             data:formdata,
             cache: false,
-            success: function (data) {
-                if (data.ok) {
-                    Swal.fire({
-                        position: 'top-end',
-                        icon: 'success',
-                        title: data.ok,
-                        showConfirmButton: false,
-                        timer: 2000
-                    }).then((result) => {
-                        if (!result.isConfirmed) {
-                            setInterval(window.location.reload(),3000)
-                        }
-                    });
-
-                }else{
-                    for (var key in data) {
-                        let   str = String(data[key]);
-                        let  message = str.replace("$", $("#" + key).html());
-                        $('input[name='+ key +']').addClass('is-invalid');
-                        toastr.error(message);
-                    }
+            error: function (data) {
+                let messageErrorArray = data.responseJSON;
+                for (var key in messageErrorArray.errors) {
+                    let   str = String(messageErrorArray.errors[key]);
+                    let  message = str.replace("$", $("#" + key).html());
+                    $('input[name='+ key +']').addClass('is-invalid');
+                    toastr.error(message);
                 }
+            },
+            success: function (data) {
+                Swal.fire({
+                    position: 'top-end',
+                    icon: 'success',
+                    title: data.ok,
+                    showConfirmButton: false,
+                    timer: 2000
+                }).then((result) => {
+                    if (!result.isConfirmed) {
+                        setInterval(window.location.href = route('admin.pages.index'),2000)
+                    }
+                });
             }
         });
     });

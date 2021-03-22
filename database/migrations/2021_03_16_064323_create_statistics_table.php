@@ -15,7 +15,7 @@ class CreateStatisticsTable extends Migration
     {
         Schema::create('statistics', function (Blueprint $table) {
             $table->id();
-            $table->date();
+            $table->string('created_at');
             $table->ipAddress('ip');
             $table->string( 'city' );
             $table->string( 'region' );

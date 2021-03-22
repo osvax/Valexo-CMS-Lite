@@ -2,11 +2,10 @@
 
 namespace App\Http\Requests;
 
-use App\Http\Controllers\Auth\PagesController;
-use App\Models\Page;
+
 use Illuminate\Foundation\Http\FormRequest;
 
-class StorePages extends FormRequest
+class PageRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -27,17 +26,17 @@ class StorePages extends FormRequest
     {
         return [
             'name' => 'required',
-            'uri' => 'required',
-            'orderPage' => 'required'
+            'uri' => 'required'
         ];
     }
 
+	/**
+	 * @return string[]
+	 */
     public function messages()
     {
         return [
-            'name' => 'A title is required',
-            'uri'  => 'A message is required',
-            'orderPage'  => 'A message is required',
+	        'required' => 'Поле $ не заполнено!',
         ];
     }
 }

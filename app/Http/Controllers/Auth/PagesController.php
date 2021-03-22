@@ -14,12 +14,10 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
-use App\Http\Requests\StorePages;
+use App\Http\Requests\PageRequest;
 use App\Models\Page;
-use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Validator;
 
 class PagesController extends Controller
 {
@@ -70,24 +68,20 @@ class PagesController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(PageRequest $request)
     {
 
-        $messages = array(
+	    $validator = $request->validated();
+
+      /*  $messages = array(
             'required' => 'Поле $ не заполнено!',
         );
-
-
         $validator = Validator::make($request->all(), [
             'name' => 'required',
             'uri' => 'required',
-        ],$messages);
+        ],$messages);*/
 
-        if ($validator->fails()){
-            $messages =   $validator->messages();
-            echo  $messages;
-        }
-        else{
+
             $page = new Page();
             $page->name = $request->input('name');
             $page->order = $request->input('order');
@@ -100,9 +94,10 @@ class PagesController extends Controller
             $page->show = $request->input('show');
             $page->editor = $request->input('editor');
             $page->save();
+
             echo json_encode(["ok" => __('messages.pagecreate')]);
 
-        }
+
 
     }
 

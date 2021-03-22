@@ -186,23 +186,28 @@
 
                 updateOutput($('#nestable').data('output', $('#nestable-output')));
 
-                $('#nestable').nestable().on('change', function(e) {
+             /*   $('#nestable').nestable().on('change', function(e) {
                     let list   = e.length ? e : $(e.target);
                     let nestableAjax = JSON.stringify(list.nestable('serialize'))
-                    console.log(JSON.stringify(list.nestable('serialize')));
+
                     $.ajax({
-                        type: "GET",
-                        url: "{{ route('editindexpage') }}",
-                        dataType: "AJAX",
-                        data: {myData:nestableAjax},
-                        error: function (response) {
-                            console.log(response)
+                        headers: {
+                            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
                         },
-                        success: function (response) {
-                            console.log(response)
+                        type: "GET",
+                        url: " route('editindexpage') }}",
+                        dataType: "html",
+                        data: {page:nestableAjax},
+                        error: function (data) {
+                            toastr.error("Ошибка");
+                        },
+                        success: function (data) {
+                            toastr.success("Сортировка изменена");
+                            setInterval(window.location.reload(),3000)
                         }
                     });
-                });
+
+                });*/
 
 
             });
