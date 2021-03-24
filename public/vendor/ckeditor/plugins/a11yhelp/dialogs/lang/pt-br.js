@@ -1,7 +1,13 @@
 ﻿/*
- Copyright (c) 2003-2021, CKSource - Frederico Knabben. All rights reserved.
- For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
-*/
+ * @project   Автор проекта - Valexo CMS LIte
+ * @author    Valentin Alexo
+ * @email     osvax@yandex.com
+ * @phone    +7(909)057-22-69
+ *
+ * Создание сайтов и интернет магазинов, посадочных страниц
+ * Разработка проектов на Laravel. SEO и SMM продвижение.
+ * Copyright (C) 2020 - 2021, Inc - Все права защищены
+ */
 CKEDITOR.plugins.setLang("a11yhelp","pt-br",{title:"Instruções de Acessibilidade",contents:"Conteúdo da Ajuda. Para fechar este diálogo pressione ESC.",legend:[{name:"Geral",items:[{name:"Barra de Ferramentas do Editor",legend:"Pressione ${toolbarFocus} para navegar para a barra de ferramentas. Mova para o anterior ou próximo grupo de ferramentas com TAB e SHIFT+TAB. Mova para o anterior ou próximo botão com SETA PARA DIREITA or SETA PARA ESQUERDA. Pressione ESPAÇO ou ENTER para ativar o botão da barra de ferramentas."},
 {name:"Diálogo do Editor",legend:"Dentro de um diálogo, pressione TAB para navegar para o próximo elemento. Pressione SHIFT+TAB para mover para o elemento anterior. Pressione ENTER ara enviar o diálogo. pressione ESC para cancelar o diálogo. Quando um diálogo tem múltiplas abas, a lista de abas pode ser acessada com ALT+F10 ou TAB, como parte da ordem de tabulação do diálogo. Com a lista de abas em foco, mova para a próxima aba e para a aba anterior com a SETA DIREITA ou SETA ESQUERDA, respectivamente."},
 {name:"Menu de Contexto do Editor",legend:"Pressione ${contextMenu} ou TECLA DE MENU para abrir o menu de contexto, então mova para a próxima opção com TAB ou SETA PARA BAIXO. Mova para a anterior com SHIFT+TAB ou SETA PARA CIMA. Pressione ESPAÇO ou ENTER para selecionar a opção do menu. Abra o submenu da opção atual com ESPAÇO ou ENTER ou SETA PARA DIREITA. Volte para o menu pai com ESC ou SETA PARA ESQUERDA. Feche o menu de contexto com ESC."},{name:"Caixa de Lista do Editor",legend:"Dentro de uma caixa de lista, mova para o próximo item com TAB ou SETA PARA BAIXO. Mova para o item anterior com SHIFT+TAB ou SETA PARA CIMA. Pressione ESPAÇO ou ENTER para selecionar uma opção na lista. Pressione ESC para fechar a caixa de lista."},

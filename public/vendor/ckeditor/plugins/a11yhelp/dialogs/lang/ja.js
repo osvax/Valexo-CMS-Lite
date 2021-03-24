@@ -1,7 +1,13 @@
 ﻿/*
- Copyright (c) 2003-2021, CKSource - Frederico Knabben. All rights reserved.
- For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
-*/
+ * @project   Автор проекта - Valexo CMS LIte
+ * @author    Valentin Alexo
+ * @email     osvax@yandex.com
+ * @phone    +7(909)057-22-69
+ *
+ * Создание сайтов и интернет магазинов, посадочных страниц
+ * Разработка проектов на Laravel. SEO и SMM продвижение.
+ * Copyright (C) 2020 - 2021, Inc - Все права защищены
+ */
 CKEDITOR.plugins.setLang("a11yhelp","ja",{title:"ユーザー補助の説明",contents:"ヘルプ　このダイアログを閉じるには ESCを押してください。",legend:[{name:"全般",items:[{name:"エディターツールバー",legend:"${toolbarFocus} を押すとツールバーのオン/オフ操作ができます。カーソルをツールバーのグループで移動させるにはTabかSHIFT+Tabを押します。グループ内でカーソルを移動させるには、右カーソルか左カーソルを押します。スペースキーやエンターを押すとボタンを有効/無効にすることができます。"},{name:"編集ダイアログ",legend:"Inside a dialog, press TAB to navigate to the next dialog element, press SHIFT+TAB to move to the previous dialog element, press ENTER to submit the dialog, press ESC to cancel the dialog. When a dialog has multiple tabs, the tab list can be reached either with ALT+F10 or with TAB as part of the dialog tabbing order. With tab list focused, move to the next and previous tab with RIGHT and LEFT ARROW, respectively."},
 {name:"エディターのメニュー",legend:"${contextMenu} キーかAPPLICATION KEYを押すとコンテキストメニューが開きます。Tabか下カーソルでメニューのオプション選択が下に移動します。戻るには、SHIFT+Tabか上カーソルです。スペースもしくはENTERキーでメニューオプションを決定できます。現在選んでいるオプションのサブメニューを開くには、スペース、もしくは右カーソルを押します。サブメニューから親メニューに戻るには、ESCか左カーソルを押してください。ESCでコンテキストメニュー自体をキャンセルできます。"},{name:"エディターリストボックス",legend:"リストボックス内で移動するには、Tabか下カーソルで次のアイテムへ移動します。SHIFT+Tabで前のアイテムに戻ります。リストのオプションを選択するには、スペースもしくは、ENTERを押してください。リストボックスを閉じるには、ESCを押してください。"},{name:"エディター要素パスバー",legend:"${elementsPathFocus} を押すとエレメントパスバーを操作出来ます。Tabか右カーソルで次のエレメントを選択できます。前のエレメントを選択するには、SHIFT+Tabか左カーソルです。スペースもしくは、ENTERでエディタ内の対象エレメントを選択出来ます。"}]},
 {name:"コマンド",items:[{name:"元に戻す",legend:"${undo} をクリック"},{name:"やり直し",legend:"${redo} をクリック"},{name:"太字",legend:"${bold} をクリック"},{name:"斜体 ",legend:"${italic} をクリック"},{name:"下線",legend:"${underline} をクリック"},{name:"リンク",legend:"${link} をクリック"},{name:"ツールバーをたたむ",legend:"${toolbarCollapse} をクリック"},{name:"前のカーソル移動のできないポイントへ",legend:"${accessPreviousSpace} を押すとカーソルより前にあるカーソルキーで入り込めないスペースへ移動できます。例えば、HRエレメントが2つ接している場合などです。離れた場所へは、複数回キーを押します。"},{name:"次のカーソルポイントへ移動する",legend:"${accessNextSpace} を押すとカーソルより後ろにあるカーソルキーで入り込めないスペースへ移動できます。例えば、HRエレメントが2つ接している場合などです。離れた場所へは、複数回キーを押します。"},

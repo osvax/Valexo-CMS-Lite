@@ -1,7 +1,13 @@
 ﻿/*
- Copyright (c) 2003-2021, CKSource - Frederico Knabben. All rights reserved.
- For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
-*/
+ * @project   Автор проекта - Valexo CMS LIte
+ * @author    Valentin Alexo
+ * @email     osvax@yandex.com
+ * @phone    +7(909)057-22-69
+ *
+ * Создание сайтов и интернет магазинов, посадочных страниц
+ * Разработка проектов на Laravel. SEO и SMM продвижение.
+ * Copyright (C) 2020 - 2021, Inc - Все права защищены
+ */
 CKEDITOR.plugins.setLang("a11yhelp","hr",{title:"Upute dostupnosti",contents:"Sadržaj pomoći. Za zatvaranje pritisnite ESC.",legend:[{name:"Općenito",items:[{name:"Alatna traka",legend:"Pritisni ${toolbarFocus} za navigaciju do alatne trake. Pomicanje do prethodne ili sljedeće alatne grupe vrši se pomoću SHIFT+TAB i TAB. Pomicanje do prethodnog ili sljedećeg gumba u alatnoj traci vrši se pomoću lijeve i desne strelice kursora. Pritisnite SPACE ili ENTER za aktivaciju alatne trake."},{name:"Dijalog",
 legend:"Unutar dijaloga, pritisnite TAB kako bi navigirali do sljedećeg elementa dijaloga, pritisnite SHIFT+TAB kako bi se pomaknuli do prethodnog elementa, pritisnite ENTER kako bi poslali dijalog, pritisnite ESC za gašenje dijaloga. Kada dijalog ima više kartica, listi kartica se može pristupiti pomoću ALT+F10 ili sa TAB. Kada je fokusirana lista kartica, pomaknite se naprijed ili nazad pomoću strelica LIJEVO ili DESNO."},{name:"Kontekstni izbornik",legend:"Pritisnite ${contextMenu} ili APPLICATION tipku za otvaranje kontekstnog izbornika. Pomicanje se vrši TAB ili strelicom kursora prema dolje ili SHIFT+TAB ili strelica kursora prema gore. SPACE ili ENTER odabiru opciju izbornika. Otvorite podizbornik trenutne opcije sa  SPACE, ENTER ili desna strelica kursora. Povratak na prethodni izbornik vrši se sa ESC ili lijevom strelicom kursora. Zatvaranje se vrši pritiskom na tipku ESC."},
 {name:"Lista",legend:"Unutar list-boxa, pomicanje na sljedeću stavku vrši se sa TAB ili strelica kursora prema dolje. Na prethodnu sa SHIFT+TAB ili strelica prema gore. Pritiskom na SPACE ili ENTER odabire se stavka ili ESC za zatvaranje."},{name:"Traka putanje elemenata",legend:"Pritisnite ${elementsPathFocus} za navigaciju po putanji elemenata. Pritisnite TAB ili desnu strelicu kursora za pomicanje na sljedeći element ili SHIFT+TAB ili lijeva strelica kursora za pomicanje na prethodni element. Pritiskom na SPACE ili ENTER vrši se odabir elementa."}]},

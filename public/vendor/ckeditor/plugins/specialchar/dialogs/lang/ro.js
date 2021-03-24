@@ -1,7 +1,13 @@
 ﻿/*
- Copyright (c) 2003-2021, CKSource - Frederico Knabben. All rights reserved.
- For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
-*/
+ * @project   Автор проекта - Valexo CMS LIte
+ * @author    Valentin Alexo
+ * @email     osvax@yandex.com
+ * @phone    +7(909)057-22-69
+ *
+ * Создание сайтов и интернет магазинов, посадочных страниц
+ * Разработка проектов на Laravel. SEO и SMM продвижение.
+ * Copyright (C) 2020 - 2021, Inc - Все права защищены
+ */
 CKEDITOR.plugins.setLang("specialchar","ro",{euro:"Simbol EURO €",lsquo:"Ghilimea simplă stânga",rsquo:"Ghilimea simplă dreapta",ldquo:"Ghilimea dublă stânga",rdquo:"Ghilimea dublă dreapta",ndash:"liniuță despărțire cu spații",mdash:"liniuță despărțire cuvinte fără spații",iexcl:"semnul exclamației inversat",cent:"simbol cent",pound:"simbol lira sterlină",curren:"simbol monedă",yen:"simbol yen",brvbar:"bara verticală întreruptă",sect:"simbol paragraf",uml:"tréma",copy:"simbol drept de autor",ordf:"Indicatorul ordinal feminin a superscript",
 laquo:"Left-pointing double angle quotation mark",not:"Not sign",reg:"Registered sign",macr:"Macron",deg:"Degree sign",sup2:"Superscript two",sup3:"Superscript three",acute:"Acute accent",micro:"Micro sign",para:"Pilcrow sign",middot:"Middle dot",cedil:"Sedila",sup1:"Superscript one",ordm:"Masculine ordinal indicator",raquo:"Right-pointing double angle quotation mark",frac14:"Vulgar fraction one quarter",frac12:"Vulgar fraction one half",frac34:"Vulgar fraction three quarters",iquest:"Semnul întrebării inversat",
 Agrave:"Latin capital letter A with grave accent",Aacute:"Latin capital letter A with acute accent",Acirc:"Latin capital letter A with circumflex",Atilde:"Latin capital letter A with tilde",Auml:"Latin capital letter A with diaeresis",Aring:"Latin capital letter A with ring above",AElig:"Latin capital letter Æ",Ccedil:"Latin capital letter C with cedilla",Egrave:"Latin capital letter E with grave accent",Eacute:"Latin capital letter E with acute accent",Ecirc:"Latin capital letter E with circumflex",

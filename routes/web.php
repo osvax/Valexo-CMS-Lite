@@ -40,9 +40,10 @@ Route::get('/', function() {
 */
 
 Route::get('/', [Valexo::class, 'index'])->name('index.controller');
+Route::get('/page/{page}', [VA_Page::class , 'index'])->name('pages.controller');
+
 //Route::get('/', [VA_Page::class , 'index'])->name('index.controller');
-Route::get('/articles', [VA_Article::class , 'index'])->name('articles.controller');
-Route::get('/{page}', [VA_Page::class , 'index'])->name('pages.controller');
+//Route::get('/articles', [VA_Article::class , 'index'])->name('articles.controller');
 
 
 

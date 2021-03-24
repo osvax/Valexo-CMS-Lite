@@ -1,7 +1,13 @@
 ﻿/*
- Copyright (c) 2003-2021, CKSource - Frederico Knabben. All rights reserved.
- For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
-*/
+ * @project   Автор проекта - Valexo CMS LIte
+ * @author    Valentin Alexo
+ * @email     osvax@yandex.com
+ * @phone    +7(909)057-22-69
+ *
+ * Создание сайтов и интернет магазинов, посадочных страниц
+ * Разработка проектов на Laravel. SEO и SMM продвижение.
+ * Copyright (C) 2020 - 2021, Inc - Все права защищены
+ */
 CKEDITOR.plugins.setLang("a11yhelp","sk",{title:"Inštrukcie prístupnosti",contents:"Pomocný obsah. Pre zatvorenie tohto okna, stlačte ESC.",legend:[{name:"Všeobecne",items:[{name:"Lišta nástrojov editora",legend:"Stlačte ${toolbarFocus} pre navigáciu na lištu nástrojov. Medzi ďalšou a predchádzajúcou lištou nástrojov sa pohybujete s TAB a SHIFT+TAB. Medzi ďalším a predchádzajúcim tlačidlom na lište nástrojov sa pohybujete s pravou šípkou a ľavou šípkou. Stlačte medzerník alebo ENTER pre aktiváciu tlačidla lišty nástrojov."},
 {name:"Editorový dialóg",legend:"V dialógovom okne stlačte TAB pre presun na ďalší prvok, SHIFT+TAB pre presun na predchádzajúci prvok, ENTER pre odoslanie, ESC pre zrušenie. Keď má dialógové okno viacero kariet, zoznam kariet dosiahnete buď stlačením ALT+F10 alebo s TAB v príslušnom poradí kariet. So zameraným zoznamom kariet sa pohybujte k ďalšej alebo predchádzajúcej karte cez PRAVÚ a ĽAVÚ ŠÍPKU."},{name:"Editorové kontextové menu",legend:"Stlačte ${contextMenu} alebo APPLICATION KEY pre otvorenie kontextového menu. Potom sa presúvajte na ďalšie možnosti menu s TAB alebo dolnou šípkou. Presunte sa k predchádzajúcej možnosti s SHIFT+TAB alebo hornou šípkou. Stlačte medzerník alebo ENTER pre výber možnosti menu. Otvorte pod-menu danej možnosti s medzerníkom, alebo ENTER, alebo pravou šípkou. Vráťte sa späť do položky rodičovského menu s ESC alebo ľavou šípkou. Zatvorte kontextové menu s ESC."},
 {name:"Editorov box zoznamu",legend:"V boxe zoznamu, presuňte sa na ďalšiu položku v zozname s TAB alebo dolnou šípkou. Presuňte sa k predchádzajúcej položke v zozname so SHIFT+TAB alebo hornou šípkou. Stlačte medzerník alebo ENTER pre výber možnosti zoznamu. Stlačte ESC pre zatvorenie boxu zoznamu."},{name:"Editorove pásmo cesty prvku",legend:"Stlačte ${elementsPathFocus} pre navigovanie na pásmo cesty elementu. Presuňte sa na tlačidlo ďalšieho prvku s TAB alebo pravou šípkou. Presuňte sa k predchádzajúcemu tlačidlu s SHIFT+TAB alebo ľavou šípkou. Stlačte medzerník alebo ENTER pre výber prvku v editore."}]},

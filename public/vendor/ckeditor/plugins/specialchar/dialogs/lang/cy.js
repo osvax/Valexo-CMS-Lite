@@ -1,7 +1,13 @@
 ﻿/*
- Copyright (c) 2003-2021, CKSource - Frederico Knabben. All rights reserved.
- For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
-*/
+ * @project   Автор проекта - Valexo CMS LIte
+ * @author    Valentin Alexo
+ * @email     osvax@yandex.com
+ * @phone    +7(909)057-22-69
+ *
+ * Создание сайтов и интернет магазинов, посадочных страниц
+ * Разработка проектов на Laravel. SEO и SMM продвижение.
+ * Copyright (C) 2020 - 2021, Inc - Все права защищены
+ */
 CKEDITOR.plugins.setLang("specialchar","cy",{euro:"Arwydd yr Ewro",lsquo:"Dyfynnod chwith unigol",rsquo:"Dyfynnod dde unigol",ldquo:"Dyfynnod chwith dwbl",rdquo:"Dyfynnod dde dwbl",ndash:"Cysylltnod en",mdash:"Cysylltnod em",iexcl:"Ebychnod gwrthdro",cent:"Arwydd sent",pound:"Arwydd punt",curren:"Arwydd arian cyfred",yen:"Arwydd yen",brvbar:"Bar toriedig",sect:"Arwydd adran",uml:"Didolnod",copy:"Arwydd hawlfraint",ordf:"Dangosydd benywaidd",laquo:"Dyfynnod dwbl ar ongl i'r chwith",not:"Arwydd Nid",
 reg:"Arwydd cofrestredig",macr:"Macron",deg:"Arwydd gradd",sup2:"Dau uwchsgript",sup3:"Tri uwchsgript",acute:"Acen ddyrchafedig",micro:"Arwydd micro",para:"Arwydd pilcrow",middot:"Dot canol",cedil:"Sedila",sup1:"Un uwchsgript",ordm:"Dangosydd gwrywaidd",raquo:"Dyfynnod dwbl ar ongl i'r dde",frac14:"Ffracsiwn cyffredin un cwarter",frac12:"Ffracsiwn cyffredin un hanner",frac34:"Ffracsiwn cyffredin tri chwarter",iquest:"Marc cwestiwn gwrthdroëdig",Agrave:"Priflythyren A Lladinaidd gydag acen ddisgynedig",
 Aacute:"Priflythyren A Lladinaidd gydag acen ddyrchafedig",Acirc:"Priflythyren A Lladinaidd gydag acen grom",Atilde:"Priflythyren A Lladinaidd gyda thild",Auml:"Priflythyren A Lladinaidd gyda didolnod",Aring:"Priflythyren A Lladinaidd gyda chylch uwchben",AElig:"Priflythyren Æ Lladinaidd",Ccedil:"Priflythyren C Lladinaidd gyda sedila",Egrave:"Priflythyren E Lladinaidd gydag acen ddisgynedig",Eacute:"Priflythyren E Lladinaidd gydag acen ddyrchafedig",Ecirc:"Priflythyren E Lladinaidd gydag acen grom",

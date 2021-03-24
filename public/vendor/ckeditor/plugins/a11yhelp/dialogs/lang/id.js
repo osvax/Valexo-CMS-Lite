@@ -1,7 +1,13 @@
 ﻿/*
- Copyright (c) 2003-2021, CKSource - Frederico Knabben. All rights reserved.
- For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
-*/
+ * @project   Автор проекта - Valexo CMS LIte
+ * @author    Valentin Alexo
+ * @email     osvax@yandex.com
+ * @phone    +7(909)057-22-69
+ *
+ * Создание сайтов и интернет магазинов, посадочных страниц
+ * Разработка проектов на Laravel. SEO и SMM продвижение.
+ * Copyright (C) 2020 - 2021, Inc - Все права защищены
+ */
 CKEDITOR.plugins.setLang("a11yhelp","id",{title:"Instruksi Accessibility",contents:"Bantuan. Tekan ESC untuk menutup dialog ini.",legend:[{name:"Umum",items:[{name:"Toolbar Editor",legend:"Tekan ${toolbarFocus} untuk berpindah ke toolbar. Untuk berpindah ke group toolbar selanjutnya dan sebelumnya gunakan TAB dan SHIFT+TAB. Untuk berpindah ke tombol toolbar selanjutnya dan sebelumnya gunakan RIGHT ARROW atau LEFT ARROW. Tekan SPASI atau ENTER untuk mengaktifkan tombol toolbar."},{name:"Dialog Editor",
 legend:"Pada jendela dialog, tekan TAB untuk berpindah pada elemen dialog selanjutnya, tekan SHIFT+TAB untuk berpindah pada elemen dialog sebelumnya, tekan ENTER untuk submit dialog, tekan ESC untuk membatalkan dialog. Pada dialog dengan multi tab, daftar tab dapat diakses dengan ALT+F10 ataupun dengan tombol TAB sesuai urutan tab pada dialog. Jika daftar tab aktif terpilih, untuk berpindah tab dapat menggunakan RIGHT dan LEFT ARROW."},{name:"Context Menu Editor",legend:"Press ${contextMenu} or APPLICATION KEY to open context-menu. Then move to next menu option with TAB or DOWN ARROW. Move to previous option with SHIFT+TAB or UP ARROW. Press SPACE or ENTER to select the menu option. Open sub-menu of current option with SPACE or ENTER or RIGHT ARROW. Go back to parent menu item with ESC or LEFT ARROW. Close context menu with ESC."},
 {name:"List Box Editor",legend:"Inside a list-box, move to next list item with TAB OR DOWN ARROW. Move to previous list item with SHIFT+TAB or UP ARROW. Press SPACE or ENTER to select the list option. Press ESC to close the list-box."},{name:"Editor Element Path Bar",legend:"Press ${elementsPathFocus} to navigate to the elements path bar. Move to next element button with TAB or RIGHT ARROW. Move to previous button with SHIFT+TAB or LEFT ARROW. Press SPACE or ENTER to select the element in editor."}]},

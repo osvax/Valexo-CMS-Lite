@@ -1,7 +1,13 @@
 ﻿/*
- Copyright (c) 2003-2021, CKSource - Frederico Knabben. All rights reserved.
- For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
-*/
+ * @project   Автор проекта - Valexo CMS LIte
+ * @author    Valentin Alexo
+ * @email     osvax@yandex.com
+ * @phone    +7(909)057-22-69
+ *
+ * Создание сайтов и интернет магазинов, посадочных страниц
+ * Разработка проектов на Laravel. SEO и SMM продвижение.
+ * Copyright (C) 2020 - 2021, Inc - Все права защищены
+ */
 CKEDITOR.plugins.setLang("specialchar","nb",{euro:"Eurosymbol",lsquo:"Venstre enkelt anførselstegn",rsquo:"Høyre enkelt anførselstegn",ldquo:"Venstre dobbelt anførselstegn",rdquo:"Høyre anførsesltegn",ndash:"Kort tankestrek",mdash:"Lang tankestrek",iexcl:"Omvendt utropstegn",cent:"Centsymbol",pound:"Pundsymbol",curren:"Valutategn",yen:"Yensymbol",brvbar:"Brutt loddrett strek",sect:"Paragraftegn",uml:"Tøddel",copy:"Copyrighttegn",ordf:"Feminin ordensindikator",laquo:"Venstre anførselstegn",not:"Negasjonstegn",
 reg:"Registrert varemerke-tegn",macr:"Makron",deg:"Gradsymbol",sup2:"Hevet totall",sup3:"Hevet tretall",acute:"Akutt aksent",micro:"Mikrosymbol",para:"Avsnittstegn",middot:"Midtstilt prikk",cedil:"Cedille",sup1:"Hevet ettall",ordm:"Maskulin ordensindikator",raquo:"Høyre anførselstegn",frac14:"Fjerdedelsbrøk",frac12:"Halvbrøk",frac34:"Tre fjerdedelers brøk",iquest:"Omvendt spørsmålstegn",Agrave:"Stor A med grav aksent",Aacute:"Stor A med akutt aksent",Acirc:"Stor A med cirkumfleks",Atilde:"Stor A med tilde",
 Auml:"Stor A med tøddel",Aring:"Stor Å",AElig:"Stor Æ",Ccedil:"Stor C med cedille",Egrave:"Stor E med grav aksent",Eacute:"Stor E med akutt aksent",Ecirc:"Stor E med cirkumfleks",Euml:"Stor E med tøddel",Igrave:"Stor I med grav aksent",Iacute:"Stor I med akutt aksent",Icirc:"Stor I med cirkumfleks",Iuml:"Stor I med tøddel",ETH:"Stor Edd/stungen D",Ntilde:"Stor N med tilde",Ograve:"Stor O med grav aksent",Oacute:"Stor O med akutt aksent",Ocirc:"Stor O med cirkumfleks",Otilde:"Stor O med tilde",Ouml:"Stor O med tøddel",

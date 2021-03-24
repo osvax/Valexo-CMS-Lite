@@ -49900,3 +49900,75 @@ i.va-delete-icon:hover {
   color: red !important;
   cursor: pointer;
 }
+
+/* Custom placeholder styles, makes it easier to see the current position */
+.uk-nestable-panel {
+  position: relative;
+  border: 1px dashed #E5E5E5;
+  opacity: 1;
+  margin-top: 1px !important;
+}
+.uk-nestable-panel .va_custom-control {
+  position: absolute;
+  display: flex;
+  align-content: center;
+  justify-items: center;
+  justify-content: space-between;
+  top: 3px;
+  right: 10px;
+  width: 70px;
+  height: 20px;
+}
+.uk-nestable-panel .va_custom-control .custom-control {
+  padding: 0;
+}
+.uk-nestable-panel .va_custom-control.va_custom-control:after {
+  position: absolute;
+  content: "";
+  font-family: "Font Awesome 5 Regular";
+  padding-top: 5px;
+  color: black;
+  opacity: 0.5;
+}
+.uk-nestable-panel .va_fa-pencil-alt-cat {
+  padding: 5px;
+}
+.uk-nestable-panel .va_fa-pencil-alt-cat.va_fa-pencil-alt-cat:before {
+  position: absolute;
+  content: "";
+  font-family: "Font Awesome 5 Regular";
+  padding-left: 24px;
+  color: black;
+  opacity: 0.5;
+}
+.uk-nestable-panel .va-delete-icon-cat {
+  padding: 7px;
+  color: #9c3328;
+}
+
+.uk-parent {
+  position: relative;
+}
+
+.uk-nestable-list:before {
+  content: "";
+  font-family: "Font Awesome 5 Solid";
+  font-size: 1.8rem;
+  position: absolute;
+  left: 10px;
+  top: 35px;
+  opacity: 1;
+  color: #E5E5E5;
+  transform: rotate(-180deg);
+}
+
+/*
+content: url("../img/illustrations/right-arrow.svg");
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 10px;
+    top: 46px;
+    opacity: 1;
+    background-color: rgb(255 255 255);
+ */

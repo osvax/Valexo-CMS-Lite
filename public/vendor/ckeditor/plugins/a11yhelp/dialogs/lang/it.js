@@ -1,7 +1,13 @@
 ﻿/*
- Copyright (c) 2003-2021, CKSource - Frederico Knabben. All rights reserved.
- For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
-*/
+ * @project   Автор проекта - Valexo CMS LIte
+ * @author    Valentin Alexo
+ * @email     osvax@yandex.com
+ * @phone    +7(909)057-22-69
+ *
+ * Создание сайтов и интернет магазинов, посадочных страниц
+ * Разработка проектов на Laravel. SEO и SMM продвижение.
+ * Copyright (C) 2020 - 2021, Inc - Все права защищены
+ */
 CKEDITOR.plugins.setLang("a11yhelp","it",{title:"Istruzioni di Accessibilità",contents:"Contenuti di Aiuto. Per chiudere questa finestra premi ESC.",legend:[{name:"Generale",items:[{name:"Barra degli strumenti Editor",legend:"Premere ${toolbarFocus} per passare alla barra degli strumenti. Usare TAB per spostarsi al gruppo successivo, MAIUSC+TAB per spostarsi a quello precedente. Usare FRECCIA DESTRA per spostarsi al pulsante successivo, FRECCIA SINISTRA per spostarsi a quello precedente. Premere SPAZIO o INVIO per attivare il pulsante della barra degli strumenti."},
 {name:"Finestra Editor",legend:"All'interno di una finestra di dialogo è possibile premere TAB per passare all'elemento successivo della finestra, MAIUSC+TAB per passare a quello precedente; premere INVIO per inviare i dati della finestra, oppure ESC per annullare l'operazione. Quando una finestra di dialogo ha più schede, è possibile passare all'elenco delle schede sia con ALT+F10 che con TAB, in base all'ordine delle tabulazioni della finestra. Quando l'elenco delle schede è attivo, premere la FRECCIA DESTRA o la FRECCIA SINISTRA per passare rispettivamente alla scheda successiva o a quella precedente."},
 {name:"Menù contestuale Editor",legend:"Premi ${contextMenu} o TASTO APPLICAZIONE per aprire il menu contestuale. Dunque muoviti all'opzione successiva del menu con il tasto TAB o con la Freccia Sotto. Muoviti all'opzione precedente con  MAIUSC+TAB o con Freccia Sopra. Premi SPAZIO o INVIO per scegliere l'opzione di menu. Apri il sottomenu dell'opzione corrente con SPAZIO o INVIO oppure con la Freccia Destra. Torna indietro al menu superiore con ESC oppure Freccia Sinistra. Chiudi il menu contestuale con ESC."},

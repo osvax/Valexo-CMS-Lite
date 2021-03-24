@@ -44,8 +44,6 @@ Route::get('/email/verify/{id}/{hash}', function (EmailVerificationRequest $requ
 
 Route::group(['middleware' => ['role:admin']], function () {
     Route::get('/admin', [VA_Dashboard::class, 'index'])->middleware(['auth'])->name('admin.dashboard.index');
-    Route::get('/admin/category',  [VA_Category::class, 'index'])->middleware(['auth'])->name('admin.category.index');
-
 
     /**
      * Роуты для создания и редактирования страниц
@@ -60,7 +58,6 @@ Route::group(['middleware' => ['role:admin']], function () {
 
 
     Route::get('/admin/statistic',  [VA_Statistic::class, 'index'])->middleware(['auth'])->name('admin.statistic.index');
-    Route::get('/admin/articles',  [VA_Article::class, 'index'])->middleware(['auth'])->name('admin.articles.index');
     Route::get('/admin/settings',  [VA_Setting::class, 'index'])->middleware(['auth'])->name('admin.settings.index');
 
 });

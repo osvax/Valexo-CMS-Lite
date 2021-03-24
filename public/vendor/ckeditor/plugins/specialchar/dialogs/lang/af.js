@@ -1,7 +1,13 @@
 ﻿/*
- Copyright (c) 2003-2021, CKSource - Frederico Knabben. All rights reserved.
- For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
-*/
+ * @project   Автор проекта - Valexo CMS LIte
+ * @author    Valentin Alexo
+ * @email     osvax@yandex.com
+ * @phone    +7(909)057-22-69
+ *
+ * Создание сайтов и интернет магазинов, посадочных страниц
+ * Разработка проектов на Laravel. SEO и SMM продвижение.
+ * Copyright (C) 2020 - 2021, Inc - Все права защищены
+ */
 CKEDITOR.plugins.setLang("specialchar","af",{euro:"Euroteken",lsquo:"Linker enkelkwotasie",rsquo:"Regter enkelkwotasie",ldquo:"Linker dubbelkwotasie",rdquo:"Regter dubbelkwotasie",ndash:"Kortkoppelteken",mdash:"Langkoppelteken",iexcl:"Omgekeerdeuitroepteken",cent:"Centteken",pound:"Pondteken",curren:"Geldeenheidteken",yen:"Yenteken",brvbar:"Gebreekte balk",sect:"Afdeelingsteken",uml:"Deelteken",copy:"Kopieregteken",ordf:"Vroulikekenteken",laquo:"Linkgeoorienteerde aanhaalingsteken",not:"Verbodeteken",
 reg:"Regestrasieteken",macr:"Lengteteken",deg:"Gradeteken",sup2:"Kwadraatteken",sup3:"Kubiekteken",acute:"Akuutaksentteken",micro:"Mikroteken",para:"Pilcrow sign",middot:"Middle dot",cedil:"Cedilla",sup1:"Superscript one",ordm:"Masculine ordinal indicator",raquo:"Right-pointing double angle quotation mark",frac14:"Vulgar fraction one quarter",frac12:"Vulgar fraction one half",frac34:"Vulgar fraction three quarters",iquest:"Inverted question mark",Agrave:"Latin capital letter A with grave accent",
 Aacute:"Latin capital letter A with acute accent",Acirc:"Latin capital letter A with circumflex",Atilde:"Latin capital letter A with tilde",Auml:"Latin capital letter A with diaeresis",Aring:"Latin capital letter A with ring above",AElig:"Latin capital letter Æ",Ccedil:"Latin capital letter C with cedilla",Egrave:"Latin capital letter E with grave accent",Eacute:"Latin capital letter E with acute accent",Ecirc:"Latin capital letter E with circumflex",Euml:"Latin capital letter E with diaeresis",Igrave:"Latin capital letter I with grave accent",

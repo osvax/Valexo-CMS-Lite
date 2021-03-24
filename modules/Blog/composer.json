@@ -1,0 +1,23 @@
+{
+    "name": "valexo/blog",
+    "description": "",
+    "authors": [
+        {
+            "name": "Valentin Alexo",
+            "email": "info@valexo.ru"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Blog\\": ""
+        }
+    }
+}

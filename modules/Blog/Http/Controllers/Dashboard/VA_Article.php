@@ -1,6 +1,6 @@
 <?php
 /*
- * @project   Автор проекта - Valexo CMS Lite
+ * @project   Автор проекта - Valexo CMS LIte
  * @author    Valentin Alexo
  * @email     osvax@yandex.com
  * @phone    +7(909)057-22-69
@@ -8,10 +8,9 @@
  * Создание сайтов и интернет магазинов, посадочных страниц
  * Разработка проектов на Laravel. SEO и SMM продвижение.
  * Copyright (C) 2020 - 2021, Inc - Все права защищены
- *
  */
 
-namespace App\Http\Controllers\Dashboard;
+namespace Modules\Blog\Http\Controllers\Dashboard;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
@@ -25,7 +24,7 @@ class VA_Article extends Controller
      */
     public function index()
     {
-        return view("article.main",[
+        return view("blog::article.main",[
             "dayrus" => $this->getDayRus(),
             "daterus" => $this->getDateRus(),
         ]);

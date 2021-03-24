@@ -1,7 +1,13 @@
 ﻿/*
- Copyright (c) 2003-2021, CKSource - Frederico Knabben. All rights reserved.
- For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
-*/
+ * @project   Автор проекта - Valexo CMS LIte
+ * @author    Valentin Alexo
+ * @email     osvax@yandex.com
+ * @phone    +7(909)057-22-69
+ *
+ * Создание сайтов и интернет магазинов, посадочных страниц
+ * Разработка проектов на Laravel. SEO и SMM продвижение.
+ * Copyright (C) 2020 - 2021, Inc - Все права защищены
+ */
 CKEDITOR.plugins.setLang("a11yhelp","sr-latn",{title:"Uputstva za pomoć",contents:"Sadržaji za pomoć. Da bi ste zatvorili diјalog pritisnite ESC.",legend:[{name:"Opšte",items:[{name:"Alatke za uređivanje",legend:"Pritisnite ${toolbarFocus} da bi označili alatke. Do sledeće i prethodne grupe alatki možete doći sa tasterom  TAB i SHIFT+TAB. Do tastera sledeće i predthodne grupe alatki možete doći sa tasterima STRELICA LEVO i STRELICA DESNO. Pritisnite  SPACE ili ENTER da bi aktivirali taster alatki."},
 {name:"Uređivač dijaloga",legend:"U prozoru dijalog pritisnite TAB da bi došli do sledećeg polja dijaloga, pritisnite ENTER za prihvatanje dijaloga, pritisnite ESC za odbijanje dijaloga. Kada dijalog ima više kartica, do njih možete doći pritiskom na ALT + F10 ili  TAB. Zatim sa TAB ili STRELICA  DESNO dolazite do naredne kartice."},{name:"Uređivač lokalnog menija",legend:"Pritisnite  ${contextMenu} ili APPLICATION TASTER za otvaranje lokalnog menija. Zatim sa TAB ili STRELICA DOLE možete preći na sledeću tačku menija.  Prethodnu opciju možete postići sa SHIFT+TAB ili STRELICA GORE. Pritisnite SPACE ili ENTER za odabir tačke menija. Pritisnite SPACE ili ENTER  da bi ste otvorili podmeni trenutne stavke menija. Za povratak u glavni meni pritisnite ESC ili STRELICA DESNO. Zatvorite lokalni meni pomoću tastera ESC."},
 {name:"Uređjivač liste",legend:"Do sledećеg elementa liste možete doći sa TAB ili STERLICA DOLE. Za odabir prethodnog elementa  pritisnite SHIFT+TAB ili STREKICA DOLE. Za odabir elementa pritisnite SPACE ili ENTER. Sa pritiskom ESC zatvarate listu. "},{name:"Uredjivač trake puta elemenata",legend:"Pritisnite $ {elementsPathFocus} da bi ste označili traku puta elenementa. Do sledećеg elementa  možete doći sa TAB ili STRELICA DESNO. Do prethodnоg dolazite sa SHIFT+TAB ili STRELICA DESNO. Sa SPACE ili ENTER možete odbrati element u uredjivaču."}]},

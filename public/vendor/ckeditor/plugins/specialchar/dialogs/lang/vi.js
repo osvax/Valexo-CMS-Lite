@@ -1,7 +1,13 @@
 ﻿/*
- Copyright (c) 2003-2021, CKSource - Frederico Knabben. All rights reserved.
- For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
-*/
+ * @project   Автор проекта - Valexo CMS LIte
+ * @author    Valentin Alexo
+ * @email     osvax@yandex.com
+ * @phone    +7(909)057-22-69
+ *
+ * Создание сайтов и интернет магазинов, посадочных страниц
+ * Разработка проектов на Laravel. SEO и SMM продвижение.
+ * Copyright (C) 2020 - 2021, Inc - Все права защищены
+ */
 CKEDITOR.plugins.setLang("specialchar","vi",{euro:"Ký hiệu Euro",lsquo:"Dấu ngoặc đơn trái",rsquo:"Dấu ngoặc đơn phải",ldquo:"Dấu ngoặc đôi trái",rdquo:"Dấu ngoặc đôi phải",ndash:"Gạch ngang tiếng anh",mdash:"Gạch ngang Em",iexcl:"Chuyển đổi dấu chấm than",cent:"Ký tự tiền Mỹ",pound:"Ký tự tiền Anh",curren:"Ký tự tiền tệ",yen:"Ký tự tiền Yên Nhật",brvbar:"Thanh hỏng",sect:"Ký tự khu vực",uml:"Dấu tách đôi",copy:"Ký tự bản quyền",ordf:"Phần chỉ thị giống cái",laquo:"Chọn dấu ngoặc đôi trái",not:"Không có ký tự",
 reg:"Ký tự đăng ký",macr:"Dấu nguyên âm dài",deg:"Ký tự độ",sup2:"Chữ trồi lên trên dạng 2",sup3:"Chữ trồi lên trên dạng 3",acute:"Dấu trọng âm",micro:"Ký tự micro",para:"Ký tự đoạn văn",middot:"Dấu chấm tròn",cedil:"Dấu móc lưới",sup1:"Ký tự trồi lên cấp 1",ordm:"Ký tự biểu hiện giống đực",raquo:"Chọn dấu ngoặc đôi phải",frac14:"Tỉ lệ một phần tư",frac12:"Tỉ lệ một nửa",frac34:"Tỉ lệ ba phần tư",iquest:"Chuyển đổi dấu chấm hỏi",Agrave:"Ký tự la-tinh viết hoa A với dấu huyền",Aacute:"Ký tự la-tinh viết hoa A với dấu sắc",
 Acirc:"Ký tự la-tinh viết hoa A với dấu mũ",Atilde:"Ký tự la-tinh viết hoa A với dấu ngã",Auml:"Ký tự la-tinh viết hoa A với dấu hai chấm trên đầu",Aring:"Ký tự la-tinh viết hoa A với biểu tượng vòng tròn trên đầu",AElig:"Ký tự la-tinh viết hoa của Æ",Ccedil:"Ký tự la-tinh viết hoa C với dấu móc bên dưới",Egrave:"Ký tự la-tinh viết hoa E với dấu huyền",Eacute:"Ký tự la-tinh viết hoa E với dấu sắc",Ecirc:"Ký tự la-tinh viết hoa E với dấu mũ",Euml:"Ký tự la-tinh viết hoa E với dấu hai chấm trên đầu",

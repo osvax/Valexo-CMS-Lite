@@ -1,7 +1,13 @@
 ﻿/*
- Copyright (c) 2003-2021, CKSource - Frederico Knabben. All rights reserved.
- For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
-*/
+ * @project   Автор проекта - Valexo CMS LIte
+ * @author    Valentin Alexo
+ * @email     osvax@yandex.com
+ * @phone    +7(909)057-22-69
+ *
+ * Создание сайтов и интернет магазинов, посадочных страниц
+ * Разработка проектов на Laravel. SEO и SMM продвижение.
+ * Copyright (C) 2020 - 2021, Inc - Все права защищены
+ */
 CKEDITOR.plugins.setLang("a11yhelp","sq",{title:"Udhëzimet e Qasjes",contents:"Përmbajtja ndihmëse. Për ta mbyllur dialogun shtyp ESC.",legend:[{name:"Të përgjithshme",items:[{name:"Shiriti i Redaktuesit",legend:"Shtyp ${toolbarFocus} për të shfletuar kokështrirjen. Kalo tek grupi paraprak ose pasues i shiritit përmes kombinacionit TAB dhe SHIFT+TAB, në tastierë. Kalo tek pulla paraprake ose pasuese e kokështrirjes përmes SHIGJETË DJATHTAS ose SHIGJETËS MAJTAS, në tastierë. Shtyp HAPËSIRË ose ENTER Move to the next and previous toolbar button with RIGHT ARROW për të aktivizuar pullën e kokështrirjes."},
 {name:"Dialogu i Redaktuesit",legend:"Në brendi të dialogut, shtyp TAB për të kaluar tek elementi tjetër i dialogut, shtyp SHIFT+TAB për të kaluar tek elementi paraprak i dialogut, shtyp ENTER për të shtuar dialogun, shtyp ESC për të anuluar dialogun.  Kur një dialog ka më shumë fletë, lista e fletëve mund të hapet përmes ALT+F10 ose përmes TAB si pjesë e radhitjes së fletëve të dialogut. Me listën e fokusuar të fletëve,kalo tek fleta paraprake dhe pasuese përmes SHIGJETËS MAJSA ose DJATHTAS."},{name:"Menyja Kontestuese e Redaktorit",
 legend:"Shtyp ${contextMenu} ose APPLICATION KEY për të hapur menynë kontekstuale. Pastaj kalo tek mundësia tjetër e menysë përmes TAB ose SHIGJETËS POSHTË. Kalo tek mundësia paraprake përmes SHIFT+TAB ose SHIGJETA SIPËR. Shtyp SPACE ose ENTER për të përzgjedhur mundësinë e menysë. Hape nënmenynë e mundësisë aktuale përmes tastës HAPËSIRË ose ENTER ose SHIGJETËS DJATHTAS. Kalo prapa tek artikulli i menysë prind përmes ESC ose SHIGJETËS MAJTAS. Mbylle menynë kontekstuale përmes ESC."},{name:"Kutiza e Listës së Redaktuesit",

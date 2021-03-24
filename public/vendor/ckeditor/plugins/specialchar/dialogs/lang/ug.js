@@ -1,7 +1,13 @@
 ﻿/*
- Copyright (c) 2003-2021, CKSource - Frederico Knabben. All rights reserved.
- For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
-*/
+ * @project   Автор проекта - Valexo CMS LIte
+ * @author    Valentin Alexo
+ * @email     osvax@yandex.com
+ * @phone    +7(909)057-22-69
+ *
+ * Создание сайтов и интернет магазинов, посадочных страниц
+ * Разработка проектов на Laravel. SEO и SMM продвижение.
+ * Copyright (C) 2020 - 2021, Inc - Все права защищены
+ */
 CKEDITOR.plugins.setLang("specialchar","ug",{euro:"ياۋرو بەلگىسى",lsquo:"يالاڭ پەش سول",rsquo:"يالاڭ پەش ئوڭ",ldquo:"قوش پەش سول",rdquo:"قوش پەش ئوڭ",ndash:"سىزىقچە",mdash:"سىزىق",iexcl:"ئۈندەش",cent:"تىيىن بەلگىسى",pound:"فوند ستېرلىڭ",curren:"پۇل بەلگىسى",yen:"ياپونىيە يىنى",brvbar:"ئۈزۈك بالداق",sect:"پاراگراف بەلگىسى",uml:"تاۋۇش ئايرىش بەلگىسى",copy:"نەشر ھوقۇقى بەلگىسى",ordf:"Feminine ordinal indicator",laquo:"قوش تىرناق سول",not:"غەيرى بەلگە",reg:"خەتلەتكەن تاۋار ماركىسى",macr:"سوزۇش بەلگىسى",
 deg:"گىرادۇس بەلگىسى",sup2:"يۇقىرى ئىندېكىس 2",sup3:"يۇقىرى ئىندېكىس 3",acute:"ئۇرغۇ بەلگىسى",micro:"Micro sign",para:"ئابزاس بەلگىسى",middot:"ئوتتۇرا چېكىت",cedil:"ئاستىغا قوشۇلىدىغان بەلگە",sup1:"يۇقىرى ئىندېكىس 1",ordm:"Masculine ordinal indicator",raquo:"قوش تىرناق ئوڭ",frac14:"ئاددىي كەسىر تۆتتىن بىر",frac12:"ئاددىي كەسىر ئىككىدىن بىر",frac34:"ئاددىي كەسىر ئۈچتىن تۆرت",iquest:"Inverted question mark",Agrave:"Latin capital letter A with grave accent",Aacute:"Latin capital letter A with acute accent",
 Acirc:"Latin capital letter A with circumflex",Atilde:"Latin capital letter A with tilde",Auml:"Latin capital letter A with diaeresis",Aring:"Latin capital letter A with ring above",AElig:"Latin capital letter Æ",Ccedil:"Latin capital letter C with cedilla",Egrave:"Latin capital letter E with grave accent",Eacute:"Latin capital letter E with acute accent",Ecirc:"Latin capital letter E with circumflex",Euml:"Latin capital letter E with diaeresis",Igrave:"Latin capital letter I with grave accent",Iacute:"Latin capital letter I with acute accent",

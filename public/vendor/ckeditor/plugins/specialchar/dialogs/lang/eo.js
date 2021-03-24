@@ -1,7 +1,13 @@
 ﻿/*
- Copyright (c) 2003-2021, CKSource - Frederico Knabben. All rights reserved.
- For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
-*/
+ * @project   Автор проекта - Valexo CMS LIte
+ * @author    Valentin Alexo
+ * @email     osvax@yandex.com
+ * @phone    +7(909)057-22-69
+ *
+ * Создание сайтов и интернет магазинов, посадочных страниц
+ * Разработка проектов на Laravel. SEO и SMM продвижение.
+ * Copyright (C) 2020 - 2021, Inc - Все права защищены
+ */
 CKEDITOR.plugins.setLang("specialchar","eo",{euro:"Eŭrosigno",lsquo:"Supra 6-citilo",rsquo:"Supra 9-citilo",ldquo:"Supra 66-citilo",rdquo:"Supra 99-citilo",ndash:"Streketo",mdash:"Substreko",iexcl:"Renversita krisigno",cent:"Cendosigno",pound:"Pundosigno",curren:"Monersigno",yen:"Enosigno",brvbar:"Rompita vertikala streko",sect:"Kurba paragrafo",uml:"Tremao",copy:"Kopirajtosigno",ordf:"Adjektiva numerfinaĵo",laquo:"Duobla malplio-citilo",not:"Negohoko",reg:"Registrita marko",macr:"Superstreko",deg:"Gradosigno",
 sup2:"Supra indico 2",sup3:"Supra indico 3",acute:"Dekstra korno",micro:"Mikrosigno",para:"Rekta paragrafo",middot:"Meza punkto",cedil:"Zoeto",sup1:"Supra indico 1",ordm:"Substantiva numerfinaĵo",raquo:"Duobla plio-citilo",frac14:"Kvaronosigno",frac12:"Duonosigno",frac34:"Trikvaronosigno",iquest:"renversita demandosigno",Agrave:"Latina ĉeflitero A kun liva korno",Aacute:"Latina ĉeflitero A kun dekstra korno",Acirc:"Latina ĉeflitero A kun ĉapelo",Atilde:"Latina ĉeflitero A kun tildo",Auml:"Latina ĉeflitero A kun tremao",
 Aring:"Latina ĉeflitero A kun superringo",AElig:"Latina ĉeflitera ligaturo Æ",Ccedil:"Latina ĉeflitero C kun zoeto",Egrave:"Latina ĉeflitero E kun liva korno",Eacute:"Latina ĉeflitero E kun dekstra korno",Ecirc:"Latina ĉeflitero E kun ĉapelo",Euml:"Latina ĉeflitero E kun tremao",Igrave:"Latina ĉeflitero I kun liva korno",Iacute:"Latina ĉeflitero I kun dekstra korno",Icirc:"Latina ĉeflitero I kun ĉapelo",Iuml:"Latina ĉeflitero I kun tremao",ETH:"Latina ĉeflitero islanda edo",Ntilde:"Latina ĉeflitero N kun tildo",

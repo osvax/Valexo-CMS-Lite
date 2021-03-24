@@ -1,7 +1,13 @@
 ﻿/*
- Copyright (c) 2003-2021, CKSource - Frederico Knabben. All rights reserved.
- For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
-*/
+ * @project   Автор проекта - Valexo CMS LIte
+ * @author    Valentin Alexo
+ * @email     osvax@yandex.com
+ * @phone    +7(909)057-22-69
+ *
+ * Создание сайтов и интернет магазинов, посадочных страниц
+ * Разработка проектов на Laravel. SEO и SMM продвижение.
+ * Copyright (C) 2020 - 2021, Inc - Все права защищены
+ */
 CKEDITOR.plugins.setLang("specialchar","hu",{euro:"Euró jel",lsquo:"Bal szimpla idézőjel",rsquo:"Jobb szimpla idézőjel",ldquo:"Bal dupla idézőjel",rdquo:"Jobb dupla idézőjel",ndash:"Rövid gondolatjel",mdash:"Hosszú gondolatjel",iexcl:"Fordított felkiáltójel",cent:"Cent jel",pound:"Font jel",curren:"Valuta jel",yen:"Yen jel",brvbar:"Hosszú kettőspont",sect:"Paragrafus jel",uml:"Kettős hangzó jel",copy:"Szerzői jog jel",ordf:"Női sorrend mutatója",laquo:"Balra mutató duplanyíl",not:"Feltételes kötőjel",
 reg:"Bejegyzett védjegy jele",macr:"Hosszúsági jel",deg:"Fok jel",sup2:"Négyzeten jel",sup3:"Köbön jel",acute:"Éles ékezet",micro:"Mikro-jel",para:"Bekezdés jel",middot:"Közép pont",cedil:"Cédille",sup1:"Elsőn jel",ordm:"Férfi sorrend mutatója",raquo:"Jobbra mutató duplanyíl",frac14:"Egy negyed jel",frac12:"Egy ketted jel",frac34:"Három negyed jel",iquest:"Fordított kérdőjel",Agrave:"Latin nagy A fordított ékezettel",Aacute:"Latin nagy A normál ékezettel",Acirc:"Latin nagy A hajtott ékezettel",Atilde:"Latin nagy A hullámjellel",
 Auml:"Latin nagy A kettőspont ékezettel",Aring:"Latin nagy A gyűrű ékezettel",AElig:"Latin nagy Æ betű",Ccedil:"Latin nagy C cedillával",Egrave:"Latin nagy E fordított ékezettel",Eacute:"Latin nagy E normál ékezettel",Ecirc:"Latin nagy E hajtott ékezettel",Euml:"Latin nagy E dupla kettőspont ékezettel",Igrave:"Latin nagy I fordított ékezettel",Iacute:"Latin nagy I normál ékezettel",Icirc:"Latin nagy I hajtott ékezettel",Iuml:"Latin nagy I kettőspont ékezettel",ETH:"Latin nagy Eth betű",Ntilde:"Latin nagy N hullámjellel",

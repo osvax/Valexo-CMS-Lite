@@ -1,7 +1,13 @@
 ﻿/*
- Copyright (c) 2003-2021, CKSource - Frederico Knabben. All rights reserved.
- For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
-*/
+ * @project   Автор проекта - Valexo CMS LIte
+ * @author    Valentin Alexo
+ * @email     osvax@yandex.com
+ * @phone    +7(909)057-22-69
+ *
+ * Создание сайтов и интернет магазинов, посадочных страниц
+ * Разработка проектов на Laravel. SEO и SMM продвижение.
+ * Copyright (C) 2020 - 2021, Inc - Все права защищены
+ */
 CKEDITOR.plugins.setLang("a11yhelp","eo",{title:"Uzindikoj pri atingeblo",contents:"Helpilenhavo. Por fermi tiun dialogon, premu la ESKAPAN klavon.",legend:[{name:"Ĝeneralaĵoj",items:[{name:"Ilbreto de la redaktilo",legend:"Premu ${toolbarFocus} por atingi la ilbreton. Moviĝu al la sekva aŭ antaŭa grupoj de la ilbreto per la klavoj TABA kaj MAJUSKLIGA+TABA. Moviĝu al la sekva aŭ antaŭa butonoj de la ilbreto per la klavoj SAGO DEKSTREN kaj SAGO MALDEKSTREN. Premu la SPACETklavon aŭ la ENENklavon por aktivigi la ilbretbutonon."},
 {name:"Redaktildialogo",legend:"En dialogo, premu la TABAN klavon por navigi al la sekva dialogelemento, premu la MAJUSKLIGAN+TABAN klavon por iri al la antaŭa dialogelemento, premu la ENEN klavon por sendi la dialogon, premu la ESKAPAN klavon por nuligi la dialogon. Kiam dialogo havas multajn langetojn, eblas atingi la langetliston aŭ per ALT+F10 aŭ per la TABA klavo kiel parton de la dialoga taba ordo. En langetlisto, moviĝu al la sekva kaj antaŭa langeto per la klavoj SAGO DEKSTREN KAJ MALDEKSTREN respektive."},
 {name:"Kunteksta menuo de la redaktilo",legend:"Premu ${contextMenu} aŭ entajpu la KLAVKOMBINAĴON por malfermi la kuntekstan menuon. Poste moviĝu al la sekva opcio de la menuo per la klavoj TABA aŭ SAGO SUBEN. Moviĝu al la antaŭa opcio per la klavoj MAJUSKLGA + TABA aŭ SAGO SUPREN. Premu la SPACETklavon aŭ ENENklavon por selekti la menuopcion. Malfermu la submenuon de la kuranta opcio per la SPACETklavo aŭ la ENENklavo aŭ la SAGO DEKSTREN. Revenu al la elemento de la patra menuo per la klavoj ESKAPA aŭ SAGO MALDEKSTREN. Fermu la kuntekstan menuon per la ESKAPA klavo."},

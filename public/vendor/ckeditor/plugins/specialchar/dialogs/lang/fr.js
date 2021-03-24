@@ -1,7 +1,13 @@
 ﻿/*
- Copyright (c) 2003-2021, CKSource - Frederico Knabben. All rights reserved.
- For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
-*/
+ * @project   Автор проекта - Valexo CMS LIte
+ * @author    Valentin Alexo
+ * @email     osvax@yandex.com
+ * @phone    +7(909)057-22-69
+ *
+ * Создание сайтов и интернет магазинов, посадочных страниц
+ * Разработка проектов на Laravel. SEO и SMM продвижение.
+ * Copyright (C) 2020 - 2021, Inc - Все права защищены
+ */
 CKEDITOR.plugins.setLang("specialchar","fr",{euro:"Symbole euro",lsquo:"Guillemet simple ouvrant",rsquo:"Guillemet simple fermant",ldquo:"Guillemet double ouvrant",rdquo:"Guillemet double fermant",ndash:"Tiret demi-cadratin",mdash:"Tiret cadratin",iexcl:"Point d'exclamation inversé",cent:"Symbole cent",pound:"Symbole Livre sterling",curren:"Symbole monétaire",yen:"Symbole yen",brvbar:"Barre verticale scindée",sect:"Signe de section",uml:"Tréma",copy:"Symbole Copyright",ordf:"Indicateur ordinal féminin",
 laquo:"Guillemet français ouvrant",not:"Crochet de négation",reg:"Symbole de marque déposée",macr:"Macron",deg:"Symbole degré",sup2:"Exposant 2",sup3:"Exposant 3",acute:"Accent aigu",micro:"Symbole micro",para:"Symbole pied-de-mouche",middot:"Point médian",cedil:"Cédille",sup1:"Exposant 1",ordm:"Indicateur ordinal masculin",raquo:"Guillemet français fermant",frac14:"Fraction un quart",frac12:"Fraction un demi",frac34:"Fraction trois quarts",iquest:"Point d'interrogation inversé",Agrave:"A accent grave majuscule",
 Aacute:"A accent aigu majuscule",Acirc:"A accent circonflexe majuscule",Atilde:"A caron majuscule",Auml:"A tréma majuscule",Aring:"A rond majuscule",AElig:"Ligature Æ majuscule",Ccedil:"C cédille majuscule",Egrave:"E accent grave majuscule",Eacute:"E accent aigu majuscule",Ecirc:"E accent circonflexe majuscule",Euml:"E tréma majuscule",Igrave:"I accent grave majuscule",Iacute:"I accent aigu majuscule",Icirc:"I accent circonflexe majuscule",Iuml:"I tréma majuscule",ETH:"Lettre majuscule islandaise ED",

@@ -7,7 +7,7 @@
         <meta name="description" content />
         <meta name="author" content />
         <title>{{ __('messages.404') }}</title>
-        <link href="{{ asset("access/css/styles.css") }}" rel="stylesheet" />
+        <link href="{{ asset("access/css/app.css") }}" rel="stylesheet" />
         <link rel="icon" type="image/x-icon" href="{{ asset("access/img/favicon.png") }}" />
         <script data-search-pseudo-elements defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.28.0/feather.min.js" crossorigin="anonymous"></script>
@@ -47,7 +47,7 @@
                 </footer>
             </div>
         </div>
-        <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+        <script src="{{ asset('vendor/jquery/jquery.min.js') }}"></script>
+    <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
     </body>
 </html>

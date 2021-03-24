@@ -1,7 +1,13 @@
 ﻿/*
- Copyright (c) 2003-2021, CKSource - Frederico Knabben. All rights reserved.
- For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
-*/
+ * @project   Автор проекта - Valexo CMS LIte
+ * @author    Valentin Alexo
+ * @email     osvax@yandex.com
+ * @phone    +7(909)057-22-69
+ *
+ * Создание сайтов и интернет магазинов, посадочных страниц
+ * Разработка проектов на Laravel. SEO и SMM продвижение.
+ * Copyright (C) 2020 - 2021, Inc - Все права защищены
+ */
 CKEDITOR.plugins.setLang("specialchar","es-mx",{euro:"Signo de Euro",lsquo:"Comillas simple izquierda",rsquo:"Comillas simple derecha",ldquo:"Comillas dobles izquierda",rdquo:"Comillas dobles derecha",ndash:"Guión corto",mdash:"Guión largo",iexcl:"Signo de exclamación invertido",cent:"Signo de centavo",pound:"Signo de Libra",curren:"Signo de moneda",yen:"Signo de Yen",brvbar:"Barra rota",sect:"Signo de la sección",uml:"Diéresis",copy:"Signo de Derechos reservados",ordf:"Indicador ordinal femenino",
 laquo:"Señal de doble ángulo hacia la izquierda",not:"Sin signo",reg:"Signo registrado",macr:"Macron",deg:"signo de grados",sup2:"Superíndice dos",sup3:"Superíndice tres",acute:"Acento agudo",micro:"Signo micro",para:"Signo pilcrow",middot:"Punto medio",cedil:"Cedilla",sup1:"Superíndice uno",ordm:"Indicador ordinal masculino",raquo:"Señal de doble ángulo hacia la derecha",frac14:"Fracción un cuarto",frac12:"Fracción medio",frac34:"Fracción tres cuartos",iquest:"Signo de interrogación invertido",Agrave:"Letra mayúscula latina A con acento grave",
 Aacute:"Letra mayúscula latina A con acento agudo",Acirc:"Letra mayúscula latina A con circunflexo",Atilde:"Letra mayúscula latina A con tilde",Auml:"Letra mayúscula latina A con diéresis",Aring:"Letra mayúscula latina A con anillo arriba",AElig:"Letra mayúscula latina Æ",Ccedil:"Letra mayúscula latina C con cedilla",Egrave:"Letra mayúscula latina E con acento grave",Eacute:"Letra mayúscula latina E con acento agudo",Ecirc:"Letra mayúscula latina E con circumflex",Euml:"Letra mayúscula latina E con diéresis",

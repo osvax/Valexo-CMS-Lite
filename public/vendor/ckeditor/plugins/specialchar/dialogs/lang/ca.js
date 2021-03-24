@@ -1,7 +1,13 @@
 ﻿/*
- Copyright (c) 2003-2021, CKSource - Frederico Knabben. All rights reserved.
- For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
-*/
+ * @project   Автор проекта - Valexo CMS LIte
+ * @author    Valentin Alexo
+ * @email     osvax@yandex.com
+ * @phone    +7(909)057-22-69
+ *
+ * Создание сайтов и интернет магазинов, посадочных страниц
+ * Разработка проектов на Laravel. SEO и SMM продвижение.
+ * Copyright (C) 2020 - 2021, Inc - Все права защищены
+ */
 CKEDITOR.plugins.setLang("specialchar","ca",{euro:"Símbol d'euro",lsquo:"Signe de cometa simple esquerra",rsquo:"Signe de cometa simple dreta",ldquo:"Signe de cometa doble esquerra",rdquo:"Signe de cometa doble dreta",ndash:"Guió",mdash:"Guió baix",iexcl:"Signe d'exclamació inversa",cent:"Símbol de percentatge",pound:"Símbol de lliura",curren:"Símbol de moneda",yen:"Símbol de Yen",brvbar:"Barra trencada",sect:"Símbol de secció",uml:"Dièresi",copy:"Símbol de Copyright",ordf:"Indicador ordinal femení",
 laquo:"Signe de cometes angulars esquerra",not:"Símbol de negació",reg:"Símbol registrat",macr:"Macron",deg:"Símbol de grau",sup2:"Superíndex dos",sup3:"Superíndex tres",acute:"Accent agut",micro:"Símbol de micro",para:"Símbol de calderó",middot:"Punt volat",cedil:"Ce trencada",sup1:"Superíndex u",ordm:"Indicador ordinal masculí",raquo:"Signe de cometes angulars dreta",frac14:"Fracció vulgar un quart",frac12:"Fracció vulgar una meitat",frac34:"Fracció vulgar tres quarts",iquest:"Símbol d'interrogació invertit",
 Agrave:"Lletra majúscula llatina A amb accent greu",Aacute:"Lletra majúscula llatina A amb accent agut",Acirc:"Lletra majúscula llatina A amb circumflex",Atilde:"Lletra majúscula llatina A amb titlla",Auml:"Lletra majúscula llatina A amb dièresi",Aring:"Lletra majúscula llatina A amb anell superior",AElig:"Lletra majúscula llatina Æ",Ccedil:"Lletra majúscula llatina C amb ce trencada",Egrave:"Lletra majúscula llatina E amb accent greu",Eacute:"Lletra majúscula llatina E amb accent agut",Ecirc:"Lletra majúscula llatina E amb circumflex",

@@ -1,7 +1,13 @@
 ﻿/*
- Copyright (c) 2003-2021, CKSource - Frederico Knabben. All rights reserved.
- For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
-*/
+ * @project   Автор проекта - Valexo CMS LIte
+ * @author    Valentin Alexo
+ * @email     osvax@yandex.com
+ * @phone    +7(909)057-22-69
+ *
+ * Создание сайтов и интернет магазинов, посадочных страниц
+ * Разработка проектов на Laravel. SEO и SMM продвижение.
+ * Copyright (C) 2020 - 2021, Inc - Все права защищены
+ */
 CKEDITOR.plugins.setLang("specialchar","it",{euro:"Simbolo Euro",lsquo:"Virgoletta singola sinistra",rsquo:"Virgoletta singola destra",ldquo:"Virgolette aperte",rdquo:"Virgolette chiuse",ndash:"Trattino",mdash:"Trattino lungo",iexcl:"Punto esclavamativo invertito",cent:"Simbolo Cent",pound:"Simbolo Sterlina",curren:"Simbolo Moneta",yen:"Simbolo Yen",brvbar:"Barra interrotta",sect:"Simbolo di sezione",uml:"Dieresi",copy:"Simbolo Copyright",ordf:"Indicatore ordinale femminile",laquo:"Virgolette basse aperte",
 not:"Nessun segno",reg:"Simbolo Registrato",macr:"Macron",deg:"Simbolo Grado",sup2:"Apice Due",sup3:"Apice Tre",acute:"Accento acuto",micro:"Simbolo Micro",para:"Simbolo Paragrafo",middot:"Punto centrale",cedil:"Cediglia",sup1:"Apice Uno",ordm:"Indicatore ordinale maschile",raquo:"Virgolette basse chiuse",frac14:"Frazione volgare un quarto",frac12:"Frazione volgare un mezzo",frac34:"Frazione volgare tre quarti",iquest:"Punto interrogativo invertito",Agrave:"Lettera maiuscola latina A con accento grave",
 Aacute:"Lettera maiuscola latina A con accento acuto",Acirc:"Lettera maiuscola latina A con accento circonflesso",Atilde:"Lettera maiuscola latina A con tilde",Auml:"Lettera maiuscola latina A con dieresi",Aring:"Lettera maiuscola latina A con anello sopra",AElig:"Lettera maiuscola latina Æ",Ccedil:"Lettera maiuscola latina C con cediglia",Egrave:"Lettera maiuscola latina E con accento grave",Eacute:"Lettera maiuscola latina E con accento acuto",Ecirc:"Lettera maiuscola latina E con accento circonflesso",

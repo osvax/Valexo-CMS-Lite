@@ -1,7 +1,13 @@
 ﻿/*
- Copyright (c) 2003-2021, CKSource - Frederico Knabben. All rights reserved.
- For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
-*/
+ * @project   Автор проекта - Valexo CMS LIte
+ * @author    Valentin Alexo
+ * @email     osvax@yandex.com
+ * @phone    +7(909)057-22-69
+ *
+ * Создание сайтов и интернет магазинов, посадочных страниц
+ * Разработка проектов на Laravel. SEO и SMM продвижение.
+ * Copyright (C) 2020 - 2021, Inc - Все права защищены
+ */
 CKEDITOR.plugins.setLang("a11yhelp","fr",{title:"Instructions d'accessibilité",contents:"Contenu de l'aide. Pour fermer cette fenêtre, appuyez sur la touche Échap.",legend:[{name:"Général",items:[{name:"Barre d'outils de l'éditeur",legend:"Appuyer sur ${toolbarFocus} pour accéder à la barre d'outils. Se déplacer vers le groupe suivant ou précédent de la barre d'outils avec les touches Tab et Maj+Tab. Se déplacer vers le bouton suivant ou précédent de la barre d'outils avec les touches Flèche droite et Flèche gauche. Appuyer sur la barre d'espace ou la touche Entrée pour activer le bouton de barre d'outils."},
 {name:"Fenêtre de l'éditeur",legend:"Dans une boîte de dialogue, appuyer sur Tab pour passer à l'élément suivant, appuyer sur Maj+Tab pour passer à l'élément précédent, appuyer sur Entrée pour valider, appuyer sur Échap pour annuler. Quand une boîte de dialogue possède des onglets, la liste peut être atteinte avec Alt+F10 ou avec Tab. Dans la liste des onglets, se déplacer vers le suivant et le précédent avec les touches Flèche droite et Flèche gauche respectivement."},{name:"Menu contextuel de l'éditeur",
 legend:"Appuyer sur ${contextMenu} ou sur la touche Menu pour ouvrir le menu contextuel. Se déplacer ensuite vers l'option suivante du menu avec les touches Tab ou Flèche bas. Se déplacer vers l'option précédente avec les touches Maj+Tab ou Flèche haut. Appuyer sur la barre d'espace ou la touche Entrée pour sélectionner l'option du menu. Appuyer sur la barre d'espace, la touche Entrée ou Flèche droite pour ouvrir le sous-menu de l'option sélectionnée. Revenir à l'élément de menu parent avec la touche Échap ou Flèche gauche. Fermer le menu contextuel avec Échap."},

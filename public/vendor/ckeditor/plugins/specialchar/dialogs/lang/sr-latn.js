@@ -1,7 +1,13 @@
 ﻿/*
- Copyright (c) 2003-2021, CKSource - Frederico Knabben. All rights reserved.
- For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
-*/
+ * @project   Автор проекта - Valexo CMS LIte
+ * @author    Valentin Alexo
+ * @email     osvax@yandex.com
+ * @phone    +7(909)057-22-69
+ *
+ * Создание сайтов и интернет магазинов, посадочных страниц
+ * Разработка проектов на Laravel. SEO и SMM продвижение.
+ * Copyright (C) 2020 - 2021, Inc - Все права защищены
+ */
 CKEDITOR.plugins.setLang("specialchar","sr-latn",{euro:"Znak eura",lsquo:"Levi simpli znak navoda",rsquo:"Desni simpli znak navoda",ldquo:"Levi dupli znak navoda",rdquo:"Desni dupli znak navoda",ndash:"Kratka crtica",mdash:"Dugačka crtica",iexcl:"Obrnuti uzvičnik",cent:"Znak za cent",pound:"Znak za funtе",curren:"Znak za valutu",yen:"Znak za jenа",brvbar:"Traka sa prekidom",sect:"Znak paragrafa",uml:"Umlaut",copy:"Znak za autorsko pravo",ordf:"Ženski redni indikator",laquo:"Dupla strelica levo",not:"Bez znaka",
 reg:"Registrovani znak",macr:"Znak dužine",deg:"Znak za stepen",sup2:"Znak za kvadrat",sup3:"Znak za kub",acute:"Oštar akcenat",micro:"Znak mikro",para:"Znak pasusa",middot:"Srednja tačka",cedil:"Cedila",sup1:"Znak na prvom",ordm:"Muški redni indikator",raquo:"Dupla strelica desno",frac14:"Znak za četvrtinu",frac12:"Znak za polovinu",frac34:"Znak za trećinu",iquest:"Obrnuti upitnik",Agrave:"Veliko latinično slovo A sa  obrnutom kukicom.",Aacute:"Veliko latinično slovo A sa kukicom.",Acirc:"Veliko latinično slovo A sa savijenom kukicom.",
 Atilde:"Veliko latinično slovo A sa znakom talasa.",Auml:"Veliko latinično slovo A sa dvotačkom",Aring:"Veliko latinično slovo A sa prstenom iznad.",AElig:"Veliko latinično slovo Æ",Ccedil:"Veliko latinično slovo C sa cedilom",Egrave:"Veliko latinično slovo E sa obrnutom kukicom",Eacute:"Veliko latinično slovo E sa kukicom.",Ecirc:"Veliko latinično slovo E sa savijenom kukicom.",Euml:"Veliko latinično slovo E sa dvotačkom",Igrave:"Veliko latinično slovo I sa obrnutom kukicom",Iacute:"Veliko latinično slovo I sa kukicom.",

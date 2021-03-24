@@ -1,7 +1,13 @@
 ﻿/*
- Copyright (c) 2003-2021, CKSource - Frederico Knabben. All rights reserved.
- For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
-*/
+ * @project   Автор проекта - Valexo CMS LIte
+ * @author    Valentin Alexo
+ * @email     osvax@yandex.com
+ * @phone    +7(909)057-22-69
+ *
+ * Создание сайтов и интернет магазинов, посадочных страниц
+ * Разработка проектов на Laravel. SEO и SMM продвижение.
+ * Copyright (C) 2020 - 2021, Inc - Все права защищены
+ */
 CKEDITOR.plugins.setLang("specialchar","pl",{euro:"Znak euro",lsquo:"Cudzysłów pojedynczy otwierający",rsquo:"Cudzysłów pojedynczy zamykający",ldquo:"Cudzysłów apostrofowy otwierający",rdquo:"Cudzysłów apostrofowy zamykający",ndash:"Półpauza",mdash:"Pauza",iexcl:"Odwrócony wykrzyknik",cent:"Znak centa",pound:"Znak funta",curren:"Znak waluty",yen:"Znak jena",brvbar:"Przerwana pionowa kreska",sect:"Paragraf",uml:"Diereza",copy:"Znak praw autorskich",ordf:"Wskaźnik rodzaju żeńskiego liczebnika porządkowego",
 laquo:"Lewy cudzysłów ostrokątny",not:"Znak negacji",reg:"Zastrzeżony znak towarowy",macr:"Makron",deg:"Znak stopnia",sup2:"Druga potęga",sup3:"Trzecia potęga",acute:"Akcent ostry",micro:"Znak mikro",para:"Znak akapitu",middot:"Kropka środkowa",cedil:"Cedylla",sup1:"Pierwsza potęga",ordm:"Wskaźnik rodzaju męskiego liczebnika porządkowego",raquo:"Prawy cudzysłów ostrokątny",frac14:"Ułamek zwykły jedna czwarta",frac12:"Ułamek zwykły jedna druga",frac34:"Ułamek zwykły trzy czwarte",iquest:"Odwrócony znak zapytania",
 Agrave:"Wielka litera A z akcentem ciężkim",Aacute:"Wielka litera A z akcentem ostrym",Acirc:"Wielka litera A z akcentem przeciągłym",Atilde:"Wielka litera A z tyldą",Auml:"Wielka litera A z dierezą",Aring:"Wielka litera A z kółkiem",AElig:"Wielka ligatura Æ",Ccedil:"Wielka litera C z cedyllą",Egrave:"Wielka litera E z akcentem ciężkim",Eacute:"Wielka litera E z akcentem ostrym",Ecirc:"Wielka litera E z akcentem przeciągłym",Euml:"Wielka litera E z dierezą",Igrave:"Wielka litera I z akcentem ciężkim",

@@ -16,7 +16,7 @@
     "elfinder.tinymce5": "elfinder\/tinymce5",
     "elfinder.ckeditor": "elfinder\/ckeditor",
     "login": "login",
-    "": "password\/confirm",
+    "": "api\/blog",
     "logout": "logout",
     "password.request": "password\/reset",
     "password.reset": "password\/reset\/{token}",
@@ -34,7 +34,6 @@
     "verification.notice": "email\/verify",
     "verification.verify": "email\/verify\/{id}\/{hash}",
     "admin.dashboard.index": "admin",
-    "admin.category.index": "admin\/category",
     "admin.pages.index": "admin\/pages",
     "admin.pages.store": "admin\/pages\/store",
     "admin.pages.create": "admin\/pages\/create",
@@ -49,6 +48,6 @@
     "onlinecount": "ajax\/onlinecount",
     "editindexpage": "ajax\/editindexpage",
     "index.controller": "\/",
-    "articles.controller": "articles",
-    "pages.controller": "{page}"
+    "admin.category.index": "admin\/category",
+    "blog.controller": "blog"
 }

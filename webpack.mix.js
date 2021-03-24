@@ -1,3 +1,6 @@
+const dotenvExpand = require('dotenv-expand');
+dotenvExpand(require('dotenv').config({ path: './.env'/*, debug: true*/}));
+
 /*
  * @project   Автор проекта - Valexo CMS Lite
  * @author    Valentin Alexo
@@ -11,6 +14,7 @@
  */
 
 const mix = require('laravel-mix');
+require('laravel-mix-merge-manifest');
 
 /*
  |--------------------------------------------------------------------------
@@ -54,6 +58,24 @@ mix.js("resources/js/app.js", "public/js")
 
 /*
  |--------------------------------------------------------------------------
+ | Mix Asset Modules
+ |--------------------------------------------------------------------------
+ |
+ | Mix provides a clean, fluent API for defining some Webpack build steps
+ | for your Laravel application. By default, we are compiling the Sass
+ | file for the application as well as bundling up all the JS files.
+ |
+ */
+
+
+mix.setPublicPath('public').mergeManifest();
+
+mix.js('Modules/Blog/Resources/assets/js/app.js', 'js/blog.js')
+	.sass(  'Modules/Blog/Resources/assets/sass/app.scss', 'css/blog.css');
+
+
+/*
+ |--------------------------------------------------------------------------
  | Mix Asset Management Production
  |--------------------------------------------------------------------------
  |
@@ -62,6 +84,7 @@ mix.js("resources/js/app.js", "public/js")
  | file for the application as well as bundling up all the JS files.
  |
  */
+
 if (mix.inProduction()) {
-    mix.version();
+	mix.version();
 }

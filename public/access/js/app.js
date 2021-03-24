@@ -83,6 +83,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 
 /***/ }),
 
+/***/ "./Modules/Blog/Resources/assets/sass/app.scss":
+/*!*****************************************************!*\
+  !*** ./Modules/Blog/Resources/assets/sass/app.scss ***!
+  \*****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9Nb2R1bGVzL0Jsb2cvUmVzb3VyY2VzL2Fzc2V0cy9zYXNzL2FwcC5zY3NzP2ZkMDQiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUFBIiwiZmlsZSI6Ii4vTW9kdWxlcy9CbG9nL1Jlc291cmNlcy9hc3NldHMvc2Fzcy9hcHAuc2Nzcy5qcyIsInNvdXJjZXNDb250ZW50IjpbIi8vIGV4dHJhY3RlZCBieSBtaW5pLWNzcy1leHRyYWN0LXBsdWdpblxuZXhwb3J0IHt9OyJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./Modules/Blog/Resources/assets/sass/app.scss\n");
+
+/***/ }),
+
 /***/ "./routes/routes.json":
 /*!****************************!*\
   !*** ./routes/routes.json ***!
@@ -90,7 +101,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"debugbar.openhandler":"_debugbar/open","debugbar.clockwork":"_debugbar/clockwork/{id}","debugbar.telescope":"_debugbar/telescope/{id}","debugbar.assets.css":"_debugbar/assets/stylesheets","debugbar.assets.js":"_debugbar/assets/javascript","debugbar.cache.delete":"_debugbar/cache/{key}/{tags?}","gui.index":"admin/artisan","gui.run":"admin/artisan/{command}","elfinder.index":"elfinder","elfinder.connector":"elfinder/connector","elfinder.popup":"elfinder/popup/{input_id}","elfinder.filepicker":"elfinder/filepicker/{input_id}","elfinder.tinymce":"elfinder/tinymce","elfinder.tinymce4":"elfinder/tinymce4","elfinder.tinymce5":"elfinder/tinymce5","elfinder.ckeditor":"elfinder/ckeditor","login":"login","":"password/confirm","logout":"logout","password.request":"password/reset","password.reset":"password/reset/{token}","password.email":"password/email","password.update":"password/reset","register":"register","user-profile-information.update":"user/profile-information","user-password.update":"user/password","password.confirm":"password/confirm","password.confirmation":"user/confirmed-password-status","two-factor.login":"two-factor-challenge","livewire.message":"livewire/message/{name}","livewire.upload-file":"livewire/upload-file","livewire.preview-file":"livewire/preview-file/{filename}","verification.notice":"email/verify","verification.verify":"email/verify/{id}/{hash}","admin.dashboard.index":"admin","admin.category.index":"admin/category","admin.pages.index":"admin/pages","admin.pages.store":"admin/pages/store","admin.pages.create":"admin/pages/create","admin.pages.destroy":"admin/pages/delete/{page}","admin.pages.show":"admin/pages/show/{id}","admin.pages.update":"admin/pages/update/{id}","admin.statistic.index":"admin/statistic","admin.articles.index":"admin/articles","admin.settings.index":"admin/settings","ftranslite":"ajax/ftranslite/{text}","setstatic":"ajax/statistic","onlinecount":"ajax/onlinecount","editindexpage":"ajax/editindexpage","index.controller":"/","articles.controller":"articles","pages.controller":"{page}"}');
+module.exports = JSON.parse('{"debugbar.openhandler":"_debugbar/open","debugbar.clockwork":"_debugbar/clockwork/{id}","debugbar.telescope":"_debugbar/telescope/{id}","debugbar.assets.css":"_debugbar/assets/stylesheets","debugbar.assets.js":"_debugbar/assets/javascript","debugbar.cache.delete":"_debugbar/cache/{key}/{tags?}","gui.index":"admin/artisan","gui.run":"admin/artisan/{command}","elfinder.index":"elfinder","elfinder.connector":"elfinder/connector","elfinder.popup":"elfinder/popup/{input_id}","elfinder.filepicker":"elfinder/filepicker/{input_id}","elfinder.tinymce":"elfinder/tinymce","elfinder.tinymce4":"elfinder/tinymce4","elfinder.tinymce5":"elfinder/tinymce5","elfinder.ckeditor":"elfinder/ckeditor","login":"login","":"api/blog","logout":"logout","password.request":"password/reset","password.reset":"password/reset/{token}","password.email":"password/email","password.update":"password/reset","register":"register","user-profile-information.update":"user/profile-information","user-password.update":"user/password","password.confirm":"password/confirm","password.confirmation":"user/confirmed-password-status","two-factor.login":"two-factor-challenge","livewire.message":"livewire/message/{name}","livewire.upload-file":"livewire/upload-file","livewire.preview-file":"livewire/preview-file/{filename}","verification.notice":"email/verify","verification.verify":"email/verify/{id}/{hash}","admin.dashboard.index":"admin","admin.category.index":"admin/category","admin.pages.index":"admin/pages","admin.pages.store":"admin/pages/store","admin.pages.create":"admin/pages/create","admin.pages.destroy":"admin/pages/delete/{page}","admin.pages.show":"admin/pages/show/{id}","admin.pages.update":"admin/pages/update/{id}","admin.statistic.index":"admin/statistic","admin.articles.index":"admin/articles","admin.settings.index":"admin/settings","ftranslite":"ajax/ftranslite/{text}","setstatic":"ajax/statistic","onlinecount":"ajax/onlinecount","editindexpage":"ajax/editindexpage","index.controller":"/","blog.controller":"blog"}');
 
 /***/ })
 
@@ -239,9 +250,10 @@ module.exports = JSON.parse('{"debugbar.openhandler":"_debugbar/open","debugbar.
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["css/app","access/css/app"], () => (__webpack_require__("./resources/access/js/app.js")))
-/******/ 	__webpack_require__.O(undefined, ["css/app","access/css/app"], () => (__webpack_require__("./resources/access/sass/app.scss")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/app","access/css/app"], () => (__webpack_require__("./resources/sass/app.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","access/css/app","css/blog"], () => (__webpack_require__("./resources/access/js/app.js")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","access/css/app","css/blog"], () => (__webpack_require__("./resources/access/sass/app.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","access/css/app","css/blog"], () => (__webpack_require__("./resources/sass/app.scss")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/app","access/css/app","css/blog"], () => (__webpack_require__("./Modules/Blog/Resources/assets/sass/app.scss")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

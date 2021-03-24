@@ -21,9 +21,13 @@
         <div class="row">
 
 
+            <!-- Main page content here-->
+
         </div>
     </div>
+@push('scripts')
 
+@endpush
 @endsection
 
 

@@ -1,7 +1,13 @@
 ﻿/*
- Copyright (c) 2003-2021, CKSource - Frederico Knabben. All rights reserved.
- For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
-*/
+ * @project   Автор проекта - Valexo CMS LIte
+ * @author    Valentin Alexo
+ * @email     osvax@yandex.com
+ * @phone    +7(909)057-22-69
+ *
+ * Создание сайтов и интернет магазинов, посадочных страниц
+ * Разработка проектов на Laravel. SEO и SMM продвижение.
+ * Copyright (C) 2020 - 2021, Inc - Все права защищены
+ */
 CKEDITOR.plugins.setLang("specialchar","lt",{euro:"Euro ženklas",lsquo:"Left single quotation mark",rsquo:"Right single quotation mark",ldquo:"Left double quotation mark",rdquo:"Right double quotation mark",ndash:"En dash",mdash:"Em dash",iexcl:"Inverted exclamation mark",cent:"Cento ženklas",pound:"Svaro ženklas",curren:"Valiutos ženklas",yen:"Jenos ženklas",brvbar:"Broken bar",sect:"Section sign",uml:"Diaeresis",copy:"Copyright sign",ordf:"Feminine ordinal indicator",laquo:"Left-pointing double angle quotation mark",
 not:"Ne ženklas",reg:"Registered sign",macr:"Makronas",deg:"Laipsnio ženklas",sup2:"Superscript two",sup3:"Superscript three",acute:"Acute accent",micro:"Mikro ženklas",para:"Pilcrow sign",middot:"Vidurinis taškas",cedil:"Cedilla",sup1:"Superscript one",ordm:"Masculine ordinal indicator",raquo:"Right-pointing double angle quotation mark",frac14:"Vulgar fraction one quarter",frac12:"Vulgar fraction one half",frac34:"Vulgar fraction three quarters",iquest:"Inverted question mark",Agrave:"Latin capital letter A with grave accent",
 Aacute:"Latin capital letter A with acute accent",Acirc:"Latin capital letter A with circumflex",Atilde:"Latin capital letter A with tilde",Auml:"Latin capital letter A with diaeresis",Aring:"Latin capital letter A with ring above",AElig:"Latin capital letter Æ",Ccedil:"Latin capital letter C with cedilla",Egrave:"Latin capital letter E with grave accent",Eacute:"Latin capital letter E with acute accent",Ecirc:"Latin capital letter E with circumflex",Euml:"Latin capital letter E with diaeresis",Igrave:"Latin capital letter I with grave accent",

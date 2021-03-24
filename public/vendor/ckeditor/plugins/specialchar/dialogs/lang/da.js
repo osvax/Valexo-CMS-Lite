@@ -1,7 +1,13 @@
 ﻿/*
- Copyright (c) 2003-2021, CKSource - Frederico Knabben. All rights reserved.
- For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
-*/
+ * @project   Автор проекта - Valexo CMS LIte
+ * @author    Valentin Alexo
+ * @email     osvax@yandex.com
+ * @phone    +7(909)057-22-69
+ *
+ * Создание сайтов и интернет магазинов, посадочных страниц
+ * Разработка проектов на Laravel. SEO и SMM продвижение.
+ * Copyright (C) 2020 - 2021, Inc - Все права защищены
+ */
 CKEDITOR.plugins.setLang("specialchar","da",{euro:"Euro-tegn",lsquo:"Venstre enkelt anførselstegn",rsquo:"Højre enkelt anførselstegn",ldquo:"Venstre dobbelt anførselstegn",rdquo:"Højre dobbelt anførselstegn",ndash:"Bindestreg",mdash:"Tankestreg",iexcl:"Omvendt udråbstegn",cent:"Cent-tegn",pound:"Pund-tegn",curren:"Valuta-tegn",yen:"Yen-tegn",brvbar:"Brudt streg",sect:"Paragraftegn",uml:"Umlaut",copy:"Copyright-tegn",ordf:"Feminin ordinal indikator",laquo:"Venstre dobbel citations-vinkel",not:"Negation",
 reg:"Registreret varemærke tegn",macr:"Macron",deg:"Grad-tegn",sup2:"Superscript to",sup3:"Superscript tre",acute:"Prim-tegn",micro:"Mikro-tegn",para:"Pilcrow-tegn",middot:"Punkt-tegn",cedil:"Cedille",sup1:"Superscript et",ordm:"Maskulin ordinal indikator",raquo:"Højre dobbel citations-vinkel",frac14:"En fjerdedel",frac12:"En halv",frac34:"En tredjedel",iquest:"Omvendt udråbstegn",Agrave:"Stort A med accent grave",Aacute:"Stort A med accent aigu",Acirc:"Stort A med cirkumfleks",Atilde:"Stort A med tilde",
 Auml:"Stort A med umlaut",Aring:"Stort Å",AElig:"Stort Æ",Ccedil:"Stort C med cedille",Egrave:"Stort E med accent grave",Eacute:"Stort E med accent aigu",Ecirc:"Stort E med cirkumfleks",Euml:"Stort E med umlaut",Igrave:"Stort I med accent grave",Iacute:"Stort I med accent aigu",Icirc:"Stort I med cirkumfleks",Iuml:"Stort I med umlaut",ETH:"Stort Ð (edd)",Ntilde:"Stort N med tilde",Ograve:"Stort O med accent grave",Oacute:"Stort O med accent aigu",Ocirc:"Stort O med cirkumfleks",Otilde:"Stort O med tilde",

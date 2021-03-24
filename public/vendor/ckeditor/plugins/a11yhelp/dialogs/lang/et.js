@@ -1,7 +1,13 @@
 ﻿/*
- Copyright (c) 2003-2021, CKSource - Frederico Knabben. All rights reserved.
- For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
-*/
+ * @project   Автор проекта - Valexo CMS LIte
+ * @author    Valentin Alexo
+ * @email     osvax@yandex.com
+ * @phone    +7(909)057-22-69
+ *
+ * Создание сайтов и интернет магазинов, посадочных страниц
+ * Разработка проектов на Laravel. SEO и SMM продвижение.
+ * Copyright (C) 2020 - 2021, Inc - Все права защищены
+ */
 CKEDITOR.plugins.setLang("a11yhelp","et",{title:"Hõlbustuste kasutamise juhised",contents:"Abi sisu. Selle dialoogi sulgemiseks vajuta ESC klahvi.",legend:[{name:"Üldine",items:[{name:"Redaktori tööriistariba",legend:"Tööriistaribale navigeerimiseks vajuta ${toolbarFocus}. Järgmisele või eelmisele tööriistagrupile liikumiseks vajuta TAB või SHIFT+TAB. Järgmisele või eelmisele tööriistaribale liikumiseks vajuta PAREMALE NOOLT või VASAKULE NOOLT. Vajuta TÜHIKUT või ENTERIT, et tööriistariba nupp aktiveerida."},
 {name:"Redaktori dialoog",legend:"Dialoogi sees vajuta TAB, et liikuda järgmisele dialoogi elemendile, SHIFT+TAB, et liikuda tagasi, vajuta ENTER dialoogi kinnitamiseks, ESC dialoogi sulgemiseks. Kui dialoogil on mitu kaarti/sakki, pääseb kaartide nimekirjale ligi ALT+F10 klahvidega või TABi kasutades. Kui kaartide nimekiri on fookuses, saab järgmisele ja eelmisele kaardile vastavalt PAREMALE ja VASAKULE NOOLTEGA."},{name:"Redaktori kontekstimenüü",legend:"Vajuta ${contextMenu} või RAKENDUSE KLAHVI, et avada kontekstimenüü. Siis saad liikuda järgmisele reale TAB klahvi või ALLA NOOLEGA. Eelmisele valikule saab liikuda SHIFT+TAB klahvidega või ÜLES NOOLEGA. Kirje valimiseks vajuta TÜHIK või ENTER. Alamenüü saab valida kui alammenüü kirje on aktiivne ja valida kas TÜHIK, ENTER või PAREMALE NOOL. Ülemisse menüüsse tagasi saab ESC klahvi või VASAKULE NOOLEGA. Menüü saab sulgeda ESC klahviga."},
 {name:"Redaktori loetelu kast",legend:"Loetelu kasti sees saab järgmisele reale liikuda TAB klahvi või ALLANOOLEGA. Eelmisele reale saab liikuda SHIFT+TAB klahvide või ÜLESNOOLEGA. Kirje valimiseks vajuta TÜHIKUT või ENTERIT. Loetelu kasti sulgemiseks vajuta ESC klahvi."},{name:"Redaktori elementide järjestuse riba",legend:"Vajuta ${elementsPathFocus} et liikuda asukoha ribal asuvatele elementidele. Järgmise elemendi nupule saab liikuda TAB klahviga või PAREMALE NOOLEGA. Eelmisele nupule saab liikuda SHIFT+TAB klahvi või VASAKULE NOOLEGA. Vajuta TÜHIK või ENTER, et valida redaktoris vastav element."}]},

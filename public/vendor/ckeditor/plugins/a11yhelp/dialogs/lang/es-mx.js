@@ -1,7 +1,13 @@
 ﻿/*
- Copyright (c) 2003-2021, CKSource - Frederico Knabben. All rights reserved.
- For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
-*/
+ * @project   Автор проекта - Valexo CMS LIte
+ * @author    Valentin Alexo
+ * @email     osvax@yandex.com
+ * @phone    +7(909)057-22-69
+ *
+ * Создание сайтов и интернет магазинов, посадочных страниц
+ * Разработка проектов на Laravel. SEO и SMM продвижение.
+ * Copyright (C) 2020 - 2021, Inc - Все права защищены
+ */
 CKEDITOR.plugins.setLang("a11yhelp","es-mx",{title:"Instrucciones de accesibilidad",contents:"Contenidos de ayuda. Para cerrar este cuadro de diálogo presione ESC.",legend:[{name:"General",items:[{name:"Barra de herramientas del editor",legend:"Presione ${toolbarFocus} para navegar a la barra de herramientas. Desplácese al grupo de barras de herramientas siguiente y anterior con  SHIFT + TAB. Desplácese al botón siguiente y anterior de la barra de herramientas con FLECHA DERECHA o FLECHA IZQUIERDA. Presione SPACE o ENTER para activar el botón de la barra de herramientas."},
 {name:"Editor de diálogo",legend:"Dentro de un cuadro de diálogo, pulse TAB para desplazarse hasta el siguiente elemento de diálogo, pulse MAYÚS + TAB para desplazarse al elemento de diálogo anterior, pulse ENTER para enviar el diálogo, pulse ESC para cancelar el diálogo. Cuando un cuadro de diálogo tiene varias pestañas, se puede acceder a la lista de pestañas con ALT + F10 o con TAB como parte del orden de tabulación del diálogo. Con la lista de tabuladores enfocada, mueva a la pestaña siguiente y anterior con las flechas DERECHA y IZQUIERDA, respectivamente."},
 {name:"Menú contextual del editor",legend:"Presione ${contextMenu} o CLAVE DE APLICACIÓN para abrir el menú contextual. A continuación, vaya a la siguiente opción del menú con TAB o DOWN ARROW. Desplácese a la opción anterior con SHIFT + TAB o FLECHA ARRIBA. Presione SPACE o ENTER para seleccionar la opción del menú. Abra el submenú de la opción actual con ESPACIO o ENTER o FLECHA DERECHA. Vuelva al elemento de menú principal con ESC o FLECHA IZQUIERDA. Cerrar el menú contextual con ESC."},{name:"Editor de cuadro de lista",

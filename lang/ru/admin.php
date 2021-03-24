@@ -1,6 +1,6 @@
 <?php
 /*
- * @project   Автор проекта - Valexo CMS Lite
+ * @project   Автор проекта - Valexo CMS LIte
  * @author    Valentin Alexo
  * @email     osvax@yandex.com
  * @phone    +7(909)057-22-69
@@ -8,7 +8,6 @@
  * Создание сайтов и интернет магазинов, посадочных страниц
  * Разработка проектов на Laravel. SEO и SMM продвижение.
  * Copyright (C) 2020 - 2021, Inc - Все права защищены
- *
  */
 
 return [
@@ -42,4 +41,16 @@ return [
     'miniature'                     => 'Миниатюра:',
     'turnofftexteditor'             => 'Выключить текстовый редактор:',
     'onoffpage'                     => 'Вкл/Выкл страницу:',
+
+	//Меню
+    "dashboards"  => "Панель управления",
+    "category"  => "Категории",
+    "pages"  => "Страницы",
+    "articles"  => "Статьи",
+    "settings"  => "Настройки",
+    "new_category"  => "Новая категория",
+    "write_category"  => "Название новой категории",
+    "acount"  => "Аккаунт",
+    "tosite"  => "На сайт",
+    "reorder"  => "Изменить порядок",
 ];

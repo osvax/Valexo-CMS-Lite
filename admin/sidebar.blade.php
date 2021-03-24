@@ -23,32 +23,48 @@
             <!-- Sidenav Accordion (Dashboard)-->
             <a class="nav-link" href="{{ route('admin.dashboard.index') }}">
                 <div class="nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
-                {{ __('messages.dashboards') }}
+                {{ __('admin.dashboards') }}
             </a>
             <!-- Sidenav Accordion (Ststistic)-->
             <a class="nav-link" href="{{ route('admin.statistic.index') }}">
                 <div class="nav-link-icon"><i class="mr-1" data-feather="trending-up"></i></div>
                 {{ __('admin.statistic') }}
             </a>
-            <!-- Sidenav Link (CategorySeeder)-->
-            <a class="nav-link" href="{{ route('admin.category.index') }}">
-                <div class="nav-link-icon"><i class="fas fa-line-columns"></i></div>
-                {{ __('messages.category') }}
+            <!-- Sidenav Link (BLog)-->
+
+            @if(Module::find('blog'))
+
+            <a class="nav-link collapsed" href="javascript:void(0);" data-toggle="collapse" data-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
+                <div class="nav-link-icon"><i data-feather="book-open"></i></div>
+                {{ __('admin.blog') }}
+                <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
             </a>
+            <div class="collapse" id="collapsePages" data-parent="#accordionSidenav">
+                <nav class="sidenav-menu-nested nav accordion" id="accordionSidenavPagesMenu">
+                    <!-- Nested Sidenav Accordion (Pages -> Account)-->
+                    <!-- Sidenav Link (CategorySeeder)-->
+                    <a class="nav-link" href="{{ route('admin.category.index') }}">
+                        <div class="nav-link-icon"><i class="fas fa-line-columns"></i></div>
+                        {{ __('admin.category') }}
+                    </a>
+                    <!-- Sidenav Link (Articles)-->
+                    <a class="nav-link" href="{{ route('admin.articles.index') }}">
+                        <div class="nav-link-icon"><i class="fas fa-book-spells"></i></div>
+                        {{ __('admin.articles') }}
+                    </a>
+                </nav>
+            </div>
+            @endif
+
             <!-- Sidenav Link (Pages)-->
             <a class="nav-link" href="{{ route('admin.pages.index') }}">
                 <div class="nav-link-icon"><i class="fas fa-file"></i></div>
-                {{ __('messages.pages') }}
-            </a>
-            <!-- Sidenav Link (Articles)-->
-            <a class="nav-link" href="{{ route('admin.articles.index') }}">
-                <div class="nav-link-icon"><i class="fas fa-book-spells"></i></div>
-                {{ __('messages.articles') }}
+                {{ __('admin.pages') }}
             </a>
             <!-- Sidenav Link (Settings)-->
             <a class="nav-link" href="{{ route('admin.settings.index') }}">
                 <div class="nav-link-icon"><i class="fas fa-cogs"></i></div>
-                {{ __('messages.settings') }}
+                {{ __('admin.settings') }}
             </a>
 
         </div>

@@ -1,7 +1,13 @@
 ﻿/*
- Copyright (c) 2003-2021, CKSource - Frederico Knabben. All rights reserved.
- For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
-*/
+ * @project   Автор проекта - Valexo CMS LIte
+ * @author    Valentin Alexo
+ * @email     osvax@yandex.com
+ * @phone    +7(909)057-22-69
+ *
+ * Создание сайтов и интернет магазинов, посадочных страниц
+ * Разработка проектов на Laravel. SEO и SMM продвижение.
+ * Copyright (C) 2020 - 2021, Inc - Все права защищены
+ */
 CKEDITOR.plugins.setLang("a11yhelp","az",{title:"Əlillərə dəstək üzrə təlimat",contents:"Kömək. Pəncərəni bağlamaq üçün ESC basın.",legend:[{name:"Əsas",items:[{name:"Düzəliş edənin alətlər çubuğu",legend:"Panelə keçmək üçün ${toolbarFocus} basın. Növbəti panelə TAB, əvvəlki panelə isə SHIFT+TAB düyməsi vasitəsi ilə keçə bilərsiz. Paneldəki düymələr arasında sol və sağ ox düyməsi ilə keçid edə bilərsiz. Seçilmiş düyməsi SPACE və ya ENTER ilə işlədə bilərsiniz."},{name:"Redaktorun pəncərəsi",legend:"Pəncərə içində növbəti element seçmək üçün TAB düyməni basın, əvvəlki isə - SHIFT+TAB. Təsdiq edilməsi üçün ENTER, imtina edilməsi isə ESC diymələri istifadə edin. Pəncərədə bir neçə vərəq olanda olnarın siyahı ALT+F10 ilə aça bilərsiz. Vərəqlərin siyahı fokus altında olanda ox düymələr vasitəsi ilə onların arasında keçid edə bilərsiz."},
 {name:"Redaktorun seçimlərin menyusu",legend:"Seçimləri redaktə etmək üçün ${contextMenu} ya da APPLICATION KEY basın. Növbəti seçimə keçmək üçün TAB ya AŞAĞI OX düyməsini basın, əvvəlki isə - SHIFT+TAB ya YUXARI OX. Seçimi arımaq SPACE ya ENTER düymələri istifadə edin. Alt menyunu açmaq üçün SPACE, ENTER ya SAĞA OX basın. ESC ya SOLA OX ilə geriyə qayıda bilərsiz. Bütün menyunu ESC ilə bağlıyın."},{name:"Düzəliş edənin siyahı qutusu",legend:"Siyahı qutusu içində növbəti bənd seçmək üçün TAB ya AŞAĞI OX, əvvəlki isə SHIFT+TAB ya YUXARI OX basın. Seçimi arımaq SPACE ya ENTER düymələri istifadə edin. Siyahı qutusu ESC ilə bağlıyın."},
 {name:"Redaktor elementin cığır paneli",legend:"Elementin cığır paneli seçmək üçün ${elementsPathFocus} basın. Növbəti element seçmək üçün TAB ya SAĞA OX, əvvəlki isə SHIFT+TAB ya SOLA OX istifadə edin. Elementi arımaq SPACE ya ENTER düymələri mövcuddur."}]},{name:"Əmrlər",items:[{name:"Əmri geri qaytar",legend:"${undo} basın"},{name:"Geri əmri",legend:"${redo} basın"},{name:"Qalın əmri",legend:"${bold}  basın"},{name:"Kursiv əmri",legend:"${italic} basın"},{name:"Altdan xətt əmri",legend:"${underline} basın"},
