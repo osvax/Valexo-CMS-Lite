@@ -17,7 +17,8 @@ class Valexo extends Controller
 {
 
 
-    /**
+
+	/**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
@@ -28,9 +29,17 @@ class Valexo extends Controller
 
         return view( $this->getTheme().'.main',
             $this->getSettings(),
-            ["my_name" => "Valentin"]
+            [
+             "user" => "Valentin"
+            ]
 
         );
+    }
+
+
+    public static function set_style()
+    {
+    	return "So Good!";
     }
 
     /**

@@ -1,6 +1,6 @@
-<ul class="uk-nestable-list">
 @foreach($subcategories as $subcategory)
-    <li class="uk-nestable-item">
+    <ul class="uk-nestable-list">
+    <li class="uk-nestable-item" id="{{ $subcategory['id'] }}">
         <div class="uk-nestable-panel">
             <i class="uk-nestable-handle uk-icon uk-icon-bars uk-margin-small-right"></i>
             {{ $subcategory['name'] }}
@@ -18,5 +18,6 @@
                 @include('blog::category.subcat',['subcategories' => $subcategory->subcategory])
             @endif
     </li>
+    </ul>
 @endforeach
-</ul>
+

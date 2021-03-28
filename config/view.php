@@ -24,8 +24,8 @@ return [
     */
 
     'paths' => [
-        resource_path('../admin'),
-        resource_path('../views'),
+        base_path('admin'),
+	    base_path('views'),
     ],
 
     /*

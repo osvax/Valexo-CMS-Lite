@@ -21,10 +21,10 @@
                     <div class="card-header">{{ __('messages.category') }}</div>
                     <div class="card-body ">
 
-                            <ul class="uk-nestable" data-uk-nestable="{handleClass:'uk-nestable-handle'}">
+                            <ul class="uk-nestable" data-uk-nestable="{handleClass:'uk-nestable-handle,maxDepth:3}">
                                 @foreach($arrayAllParentCategory as $cat)
-                                <li class="uk-nestable-item">
-                                    <div class="uk-nestable-panel text-left">
+                                <li class="uk-nestable-item" id="{{ $cat['id'] }}">
+                                    <div  class="uk-nestable-panel text-left">
                                             <i class="uk-nestable-handle uk-icon uk-icon-bars uk-margin-small-right"></i>
                                         {{ $cat['name'] }}
                                         <div class="va_custom-control">
@@ -100,32 +100,39 @@
         <script type="text/javascript">
 
             $(document).ready(function() {
-                var nestable = UIkit.nestable('.uk-nestable', {
-                    maxDepth:3
-                });
 
-             /*   $('#nestable').nestable().on('change', function(e) {
-                    let list   = e.length ? e : $(e.target);
-                    let nestableAjax = JSON.stringify(list.nestable('serialize'))
+              UIkit.ready(function() {
+                    $('.uk-nestable').on({
+                        'change.uk.nestable': function(e, el, type){
+                          let parentId =  type.parent().parent().attr('id');
+                          let id = type.attr('id');
 
-                    $.ajax({
-                        headers: {
-                            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-                        },
-                        type: "GET",
-                        url: " route('editindexpage') }}",
-                        dataType: "html",
-                        data: {page:nestableAjax},
-                        error: function (data) {
-                            toastr.error("Ошибка");
-                        },
-                        success: function (data) {
-                            toastr.success("Сортировка изменена");
-                            setInterval(window.location.reload(),3000)
+                            if (parentId === undefined) {
+                                parentId = 0;
+                            }
+
+
+                            console.log(type.parent().parent().attr('id'));
+
+                            $.ajax({
+                                type: "GET",
+                                url: "{{ route('updatesortcategory') }}",
+                                dataType: "html",
+                                data: {id:id,parent_id:parentId},
+                                error: function (data) {
+                                    toastr.error("Ошибка");
+                                },
+                                success: function (data) {
+                                    toastr.success("Сортировка изменена");
+                                    setInterval(window.location.reload(),3000)
+                                }
+                            });
+
                         }
                     });
+                });
 
-                });*/
+
             });
         </script>
     @endpush

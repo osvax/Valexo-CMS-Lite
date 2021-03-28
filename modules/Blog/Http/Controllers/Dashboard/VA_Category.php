@@ -15,6 +15,7 @@ namespace Modules\Blog\Http\Controllers\Dashboard;
 use App\Http\Controllers\Controller;
 use App\Models\Category;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class VA_Category extends Controller
 {
@@ -26,7 +27,7 @@ class VA_Category extends Controller
     public function index()
     {
 
-        $arrayAllParentCategory = Category::where('parent_id',0)->get();
+        $arrayAllParentCategory = Category::where('parent_id',0)->orderBy('order')->get();
         $query = Category::where('parent_id',0)->count();
 
 
@@ -123,5 +124,20 @@ class VA_Category extends Controller
     public function destroy($id)
     {
         //
+    }
+
+	/**
+	 *
+	 */
+    public function updateSortCategory()
+    {
+	    $id =  json_decode($_GET['id']);
+	    $parent_id =  json_decode($_GET['parent_id']);
+
+	    $update = DB::table( 'categories' )
+	                ->where( 'id', '=', $id)
+	                ->update([
+		                'parent_id' =>  $parent_id,
+	                ]);
     }
 }

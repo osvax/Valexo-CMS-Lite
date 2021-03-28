@@ -98,13 +98,15 @@ function access_path_img()
     return 'access/img/';
 }
 
-function modules_path()
+function views_path()
 {
-	 return base_path() . "/Modules/";
+	return base_path( 'views/' );
 }
 
-foreach (glob(modules_path() . "*.php") as $filename) {
-	include_once $filename;
+function admin_path()
+{
+	return base_path( 'admin/' );
 }
+
 
 

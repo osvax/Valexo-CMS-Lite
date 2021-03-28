@@ -19470,8 +19470,8 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src: url(/access/fonts/fa-brands-400.eot?227839d7b55145a12b2e97793a6fb056);
-  src: url(/access/fonts/fa-brands-400.eot?227839d7b55145a12b2e97793a6fb056) format("embedded-opentype"), url(/access/fonts/fa-brands-400.woff2?1b59451988b39712d36663a6235880a4) format("woff2"), url(/access/fonts/fa-brands-400.woff?3a94d875f40ff4586b9d877b10423129) format("woff"), url(/access/fonts/fa-brands-400.ttf?2c1639bfc3d78a6bbff08c3c04060afa) format("truetype"), url(/access/fonts/fa-brands-400.svg?479e9113ee245c7b2e62f39107dd66d8) format("svg");
+  src: url(/fonts/fa-brands-400.eot?227839d7b55145a12b2e97793a6fb056);
+  src: url(/fonts/fa-brands-400.eot?227839d7b55145a12b2e97793a6fb056) format("embedded-opentype"), url(/fonts/fa-brands-400.woff2?1b59451988b39712d36663a6235880a4) format("woff2"), url(/fonts/fa-brands-400.woff?3a94d875f40ff4586b9d877b10423129) format("woff"), url(/fonts/fa-brands-400.ttf?2c1639bfc3d78a6bbff08c3c04060afa) format("truetype"), url(/fonts/fa-brands-400.svg?479e9113ee245c7b2e62f39107dd66d8) format("svg");
 }
 .fab {
   font-family: "Font Awesome 5 Brands";
@@ -19483,8 +19483,8 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 900;
   font-display: block;
-  src: url(/access/fonts/fa-duotone-900.eot?ac13b02424379ab54a3277c4b8a2595e);
-  src: url(/access/fonts/fa-duotone-900.eot?ac13b02424379ab54a3277c4b8a2595e) format("embedded-opentype"), url(/access/fonts/fa-duotone-900.woff2?0d4e8e8855f4b889de1203a94513e388) format("woff2"), url(/access/fonts/fa-duotone-900.woff?730287bee77d39f0bc7e2bad17f09686) format("woff"), url(/access/fonts/fa-duotone-900.ttf?715661f3c821c45a275cc448ea4edaba) format("truetype"), url(/access/fonts/fa-duotone-900.svg?e4b1cd20c5ca75b152d86d4bc4988980) format("svg");
+  src: url(/fonts/fa-duotone-900.eot?ac13b02424379ab54a3277c4b8a2595e);
+  src: url(/fonts/fa-duotone-900.eot?ac13b02424379ab54a3277c4b8a2595e) format("embedded-opentype"), url(/fonts/fa-duotone-900.woff2?0d4e8e8855f4b889de1203a94513e388) format("woff2"), url(/fonts/fa-duotone-900.woff?730287bee77d39f0bc7e2bad17f09686) format("woff"), url(/fonts/fa-duotone-900.ttf?715661f3c821c45a275cc448ea4edaba) format("truetype"), url(/fonts/fa-duotone-900.svg?e4b1cd20c5ca75b152d86d4bc4988980) format("svg");
 }
 .fad {
   position: relative;
@@ -26949,8 +26949,8 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 300;
   font-display: block;
-  src: url(/access/fonts/fa-light-300.eot?bb4578f4ef9087747798784abae1ea74);
-  src: url(/access/fonts/fa-light-300.eot?bb4578f4ef9087747798784abae1ea74) format("embedded-opentype"), url(/access/fonts/fa-light-300.woff2?91733965dcd1c57a3fcab6f17bd5e95d) format("woff2"), url(/access/fonts/fa-light-300.woff?7ee1fe4a71d864d02025679ca7870700) format("woff"), url(/access/fonts/fa-light-300.ttf?0a116011f3f62d9a4cbe32f5202ee0fa) format("truetype"), url(/access/fonts/fa-light-300.svg?99954891058d66362a2df42f1abb587d) format("svg");
+  src: url(/fonts/fa-light-300.eot?bb4578f4ef9087747798784abae1ea74);
+  src: url(/fonts/fa-light-300.eot?bb4578f4ef9087747798784abae1ea74) format("embedded-opentype"), url(/fonts/fa-light-300.woff2?91733965dcd1c57a3fcab6f17bd5e95d) format("woff2"), url(/fonts/fa-light-300.woff?7ee1fe4a71d864d02025679ca7870700) format("woff"), url(/fonts/fa-light-300.ttf?0a116011f3f62d9a4cbe32f5202ee0fa) format("truetype"), url(/fonts/fa-light-300.svg?99954891058d66362a2df42f1abb587d) format("svg");
 }
 .fal {
   font-family: "Font Awesome 5";
@@ -26962,8 +26962,8 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src: url(/access/fonts/fa-regular-400.eot?638d54f5c9a70483b20513b2dc21412d);
-  src: url(/access/fonts/fa-regular-400.eot?638d54f5c9a70483b20513b2dc21412d) format("embedded-opentype"), url(/access/fonts/fa-regular-400.woff2?513f5eb0e7a02cf72c3ccba7bac2452c) format("woff2"), url(/access/fonts/fa-regular-400.woff?ef23c1a5edc6dc309231023c91f6d0f0) format("woff"), url(/access/fonts/fa-regular-400.ttf?b777006d955ed77396862f677e845ffa) format("truetype"), url(/access/fonts/fa-regular-400.svg?6dadae23872703cb7274664a6ea58640) format("svg");
+  src: url(/fonts/fa-regular-400.eot?638d54f5c9a70483b20513b2dc21412d);
+  src: url(/fonts/fa-regular-400.eot?638d54f5c9a70483b20513b2dc21412d) format("embedded-opentype"), url(/fonts/fa-regular-400.woff2?513f5eb0e7a02cf72c3ccba7bac2452c) format("woff2"), url(/fonts/fa-regular-400.woff?ef23c1a5edc6dc309231023c91f6d0f0) format("woff"), url(/fonts/fa-regular-400.ttf?b777006d955ed77396862f677e845ffa) format("truetype"), url(/fonts/fa-regular-400.svg?6dadae23872703cb7274664a6ea58640) format("svg");
 }
 .far {
   font-family: "Font Awesome 5";
@@ -26975,8 +26975,8 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 900;
   font-display: block;
-  src: url(/access/fonts/fa-solid-900.eot?5bdde71416747e371a4400b969603f18);
-  src: url(/access/fonts/fa-solid-900.eot?5bdde71416747e371a4400b969603f18) format("embedded-opentype"), url(/access/fonts/fa-solid-900.woff2?d8fee305c32d51d480e05938c377b87c) format("woff2"), url(/access/fonts/fa-solid-900.woff?60889030bac3b23794f5e22dbc98caee) format("woff"), url(/access/fonts/fa-solid-900.ttf?7d043e5e771d2213ec3c06cf1e638d3c) format("truetype"), url(/access/fonts/fa-solid-900.svg?0561bd179ef2eed2a95f7c75bbd234dc) format("svg");
+  src: url(/fonts/fa-solid-900.eot?5bdde71416747e371a4400b969603f18);
+  src: url(/fonts/fa-solid-900.eot?5bdde71416747e371a4400b969603f18) format("embedded-opentype"), url(/fonts/fa-solid-900.woff2?d8fee305c32d51d480e05938c377b87c) format("woff2"), url(/fonts/fa-solid-900.woff?60889030bac3b23794f5e22dbc98caee) format("woff"), url(/fonts/fa-solid-900.ttf?7d043e5e771d2213ec3c06cf1e638d3c) format("truetype"), url(/fonts/fa-solid-900.svg?0561bd179ef2eed2a95f7c75bbd234dc) format("svg");
 }
 .fa,
 .fas {
@@ -43581,109 +43581,109 @@ body {
 
 @font-face {
   font-family: "Metropolis";
-  src: url(/access/fonts/Metropolis-Thin.otf?90c6171184f230bfa07a635d8ec33797);
+  src: url(/fonts/Metropolis-Thin.otf?90c6171184f230bfa07a635d8ec33797);
   font-weight: 100;
   font-style: normal;
 }
 @font-face {
   font-family: "Metropolis";
-  src: url(/access/fonts/Metropolis-ThinItalic.otf?4f80c943cd36efc9423383cfd1752a9b);
+  src: url(/fonts/Metropolis-ThinItalic.otf?4f80c943cd36efc9423383cfd1752a9b);
   font-weight: 100;
   font-style: italic;
 }
 @font-face {
   font-family: "Metropolis";
-  src: url(/access/fonts/Metropolis-ExtraLight.otf?d1784bd894f8e478ab9f3b36c614f330);
+  src: url(/fonts/Metropolis-ExtraLight.otf?d1784bd894f8e478ab9f3b36c614f330);
   font-weight: 200;
   font-style: normal;
 }
 @font-face {
   font-family: "Metropolis";
-  src: url(/access/fonts/Metropolis-ExtraLightItalic.otf?a86eca7fa8f92bdb092d3bae2f799515);
+  src: url(/fonts/Metropolis-ExtraLightItalic.otf?a86eca7fa8f92bdb092d3bae2f799515);
   font-weight: 200;
   font-style: italic;
 }
 @font-face {
   font-family: "Metropolis";
-  src: url(/access/fonts/Metropolis-Light.otf?5813789eac597edf6ef412303458003b);
+  src: url(/fonts/Metropolis-Light.otf?5813789eac597edf6ef412303458003b);
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: "Metropolis";
-  src: url(/access/fonts/Metropolis-LightItalic.otf?7aa2b6e18c73c83faefc61f69c65660a);
+  src: url(/fonts/Metropolis-LightItalic.otf?7aa2b6e18c73c83faefc61f69c65660a);
   font-weight: 300;
   font-style: italic;
 }
 @font-face {
   font-family: "Metropolis";
-  src: url(/access/fonts/Metropolis-Regular.otf?67a1988d7b65b0aaa16da42bcb97acc3);
+  src: url(/fonts/Metropolis-Regular.otf?67a1988d7b65b0aaa16da42bcb97acc3);
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Metropolis";
-  src: url(/access/fonts/Metropolis-RegularItalic.otf?6f16ffe9127c905cc77dac6f67765d7a);
+  src: url(/fonts/Metropolis-RegularItalic.otf?6f16ffe9127c905cc77dac6f67765d7a);
   font-weight: 400;
   font-style: italic;
 }
 @font-face {
   font-family: "Metropolis";
-  src: url(/access/fonts/Metropolis-Medium.otf?cdcce86268fb4a504ff582dd54e1bbe9);
+  src: url(/fonts/Metropolis-Medium.otf?cdcce86268fb4a504ff582dd54e1bbe9);
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "Metropolis";
-  src: url(/access/fonts/Metropolis-MediumItalic.otf?9f90cbf85282400da96846ca80e36522);
+  src: url(/fonts/Metropolis-MediumItalic.otf?9f90cbf85282400da96846ca80e36522);
   font-weight: 500;
   font-style: italic;
 }
 @font-face {
   font-family: "Metropolis";
-  src: url(/access/fonts/Metropolis-SemiBold.otf?5e856013947c22fbcdf478f3b5592441);
+  src: url(/fonts/Metropolis-SemiBold.otf?5e856013947c22fbcdf478f3b5592441);
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
   font-family: "Metropolis";
-  src: url(/access/fonts/Metropolis-SemiBoldItalic.otf?c9fc7e1f0de5933ad2ba563cf0e83531);
+  src: url(/fonts/Metropolis-SemiBoldItalic.otf?c9fc7e1f0de5933ad2ba563cf0e83531);
   font-weight: 600;
   font-style: italic;
 }
 @font-face {
   font-family: "Metropolis";
-  src: url(/access/fonts/Metropolis-Bold.otf?c5e04fafcff6fc79cd76e3fe6666259c);
+  src: url(/fonts/Metropolis-Bold.otf?c5e04fafcff6fc79cd76e3fe6666259c);
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: "Metropolis";
-  src: url(/access/fonts/Metropolis-BoldItalic.otf?1eb34a2ff06aec00a72ca6a8418d28e6);
+  src: url(/fonts/Metropolis-BoldItalic.otf?1eb34a2ff06aec00a72ca6a8418d28e6);
   font-weight: 700;
   font-style: italic;
 }
 @font-face {
   font-family: "Metropolis";
-  src: url(/access/fonts/Metropolis-ExtraBold.otf?f179dd5fc7c0864a964b0e9d5a537539);
+  src: url(/fonts/Metropolis-ExtraBold.otf?f179dd5fc7c0864a964b0e9d5a537539);
   font-weight: 800;
   font-style: normal;
 }
 @font-face {
   font-family: "Metropolis";
-  src: url(/access/fonts/Metropolis-ExtraBoldItalic.otf?a634192ed7046f830104bed940427efc);
+  src: url(/fonts/Metropolis-ExtraBoldItalic.otf?a634192ed7046f830104bed940427efc);
   font-weight: 800;
   font-style: italic;
 }
 @font-face {
   font-family: "Metropolis";
-  src: url(/access/fonts/Metropolis-Black.otf?1510951eb17eaadbe9954c59b5e448cf);
+  src: url(/fonts/Metropolis-Black.otf?1510951eb17eaadbe9954c59b5e448cf);
   font-weight: 800;
   font-style: normal;
 }
 @font-face {
   font-family: "Metropolis";
-  src: url(/access/fonts/Metropolis-BlackItalic.otf?c6d3c86737b6a09f831835593c5ec8f4);
+  src: url(/fonts/Metropolis-BlackItalic.otf?c6d3c86737b6a09f831835593c5ec8f4);
   font-weight: 800;
   font-style: italic;
 }
@@ -46530,11 +46530,11 @@ body {
 }
 
 .card-waves .card-body {
-  background-image: url(/access/img/bg-waves.svg?ae3e4621f6a760cceb4b41ea2fec07b6);
+  background-image: url(/img/bg-waves.svg?ae3e4621f6a760cceb4b41ea2fec07b6);
 }
 
 .card-angles .card-body {
-  background-image: url(/access/img/bg-angles.svg?09207b24e4f60ec19876f7bd89c834b6);
+  background-image: url(/img/bg-angles.svg?09207b24e4f60ec19876f7bd89c834b6);
 }
 
 .page-header .page-header-content {

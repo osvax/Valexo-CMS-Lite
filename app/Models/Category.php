@@ -92,6 +92,6 @@ class Category extends Model
      */
     public function subcategory()
     {
-        return $this->hasMany( 'App\Models\Category', 'parent_id' );
+        return $this->hasMany( 'App\Models\Category', 'parent_id');
     }
 }

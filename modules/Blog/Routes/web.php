@@ -18,6 +18,15 @@ Route::group(['middleware' => ['role:admin']], function () {
     Route::get('/admin/category',  [\Modules\Blog\Http\Controllers\Dashboard\VA_Category::class, 'index'])->middleware(['auth'])->name('admin.category.index');
 	 Route::get('/admin/articles',  [\Modules\Blog\Http\Controllers\Dashboard\VA_Article::class, 'index'])->middleware(['auth'])->name('admin.articles.index');
 
+
+
+
+	//Ajax
+	Route::get('/ajax/sortcategory/', function () {
+		$obj = new \Modules\Blog\Http\Controllers\Dashboard\VA_Category();
+		$obj->updateSortCategory();
+	})->name('updatesortcategory');
+
 });
 
 Route::prefix('blog')->group(function() {

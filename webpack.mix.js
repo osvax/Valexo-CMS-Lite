@@ -54,7 +54,13 @@ mix.js("resources/access/js/app.js", "public/access/js")
 mix.js("resources/js/app.js", "public/js")
     .sass("resources/sass/app.scss", "public/css")
     .sourceMaps()
-    .version();
+    .version()
+	.options({
+	fileLoaderDirs:  {
+		fonts: 'fonts',
+		images: 'img'
+	}
+});
 
 /*
  |--------------------------------------------------------------------------

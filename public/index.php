@@ -43,7 +43,16 @@ if (file_exists(__DIR__.'/../storage/framework/maintenance.php')) {
 */
 
 require __DIR__.'/../vendor/autoload.php';
-
+foreach (glob(__DIR__.'/../app/Helpers/*.php') as $filename) {
+	if ( file_exists(  $filename) ) {
+		include  $filename;
+	}
+}
+foreach (glob(__DIR__.'/../Modules/Helpers/*.php') as $filename) {
+	if ( file_exists(  $filename) ) {
+		include  $filename;
+	}
+}
 /*
 |--------------------------------------------------------------------------
 | Run The Application
@@ -64,3 +73,4 @@ $response = tap($kernel->handle(
 ))->send();
 
 $kernel->terminate($request, $response);
+

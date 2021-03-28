@@ -11,7 +11,6 @@
  */
  "use_strict"
 
-
 require('./default');
 require('./functions');
 
