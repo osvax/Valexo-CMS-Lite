@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,900);
 @charset "UTF-8";
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
@@ -49879,7 +49879,8 @@ pre[class*=language-] {
  *
  */
 body {
-  font-family: "Nunito", sans-serif;
+  font-family: "Montserrat";
+  font-weight: 500;
 }
 
 textarea.anons {
