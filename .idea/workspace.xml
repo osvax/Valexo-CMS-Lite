@@ -2,21 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0aef3741-ae76-484a-8d55-e6d7edf6b198" name="Default Changelist" comment="Valexo CMS Lite start">
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/c1aa2bd96cf0c939bd06cc978fbc81f07ff12a21.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/68fe702fa3867f7b249d2e92e1117a9b9bb74476.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/7dd0e93f520c92b6bdb70b93b014e22d8ae68701.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Valexo CMS LIte.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Valexo CMS LIte.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.phpstorm.meta.php" beforeDir="false" afterPath="$PROJECT_DIR$/.phpstorm.meta.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_ide_helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/_ide_helper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/valexo.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/valexo.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/access/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/access/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/access/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/access/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/sass/_styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/access/sass/_styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/sass/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/access/sass/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/access/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/access/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/views/d9b0395e0cdf5b4f525e2cb8633a9e1b72d2edfc.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/d9b0395e0cdf5b4f525e2cb8633a9e1b72d2edfc.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,6 +213,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
       <path value="$PROJECT_DIR$/vendor/nwidart/laravel-modules" />
       <path value="$PROJECT_DIR$/vendor/lcobucci/clock" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/deprecations" />
     </include_path>
   </component>
   <component name="ProjectId" id="1oWNe4fJQcyzmdWocW6Kd5Lp1ya" />
@@ -239,7 +234,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/views" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="Symfony2.SettingsForm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -323,8 +318,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.watch" />
-        <item itemvalue="npm.prod" />
         <item itemvalue="npm.production" />
+        <item itemvalue="npm.prod" />
         <item itemvalue="npm.dev" />
         <item itemvalue="Composer Script.post-update-cmd" />
       </list>
@@ -412,6 +407,24 @@
       <workItem from="1618644814243" duration="454000" />
       <workItem from="1618645334166" duration="17000" />
       <workItem from="1618646316464" duration="1061000" />
+      <workItem from="1619369690149" duration="804000" />
+      <workItem from="1620151811207" duration="184000" />
+      <workItem from="1620152075985" duration="242000" />
+      <workItem from="1622565774093" duration="39000" />
+      <workItem from="1622566141488" duration="5000" />
+      <workItem from="1623953132901" duration="18000" />
+      <workItem from="1623953185161" duration="66000" />
+      <workItem from="1625394765328" duration="122000" />
+      <workItem from="1625395022112" duration="298000" />
+      <workItem from="1625395336373" duration="463000" />
+      <workItem from="1626975811959" duration="959000" />
+      <workItem from="1627148414872" duration="34000" />
+      <workItem from="1627148483125" duration="35000" />
+      <workItem from="1628182657680" duration="96000" />
+      <workItem from="1628183544330" duration="36000" />
+      <workItem from="1628183596388" duration="58000" />
+      <workItem from="1628183750586" duration="58000" />
+      <workItem from="1628183830701" duration="117000" />
     </task>
     <task id="LOCAL-00001" summary="Valexo CMS Lite start">
       <created>1616408394624</created>
@@ -447,5 +460,9 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="hg4idea.settings">
+    <option name="CHECK_INCOMING_OUTGOING" value="true" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
 </project>

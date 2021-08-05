@@ -12,6 +12,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Modules" isTestSource="false" packagePrefix="Modules\" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/nwidart/laravel-modules" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/lcobucci/clock" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/deprecations" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
